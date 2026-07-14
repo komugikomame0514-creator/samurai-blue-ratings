@@ -46,3 +46,7 @@ button,input,select{font:inherit}
 @media(max-width:760px){
   .brand small{display:none}.site-nav{padding:0 12px}.container{padding:0 12px}
 }
+
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.12;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(to bottom,black,transparent 90%)}
+.panel{backdrop-filter:blur(18px);box-shadow:0 20px 55px rgba(0,0,0,.34)}
+.btn{transition:.2s ease}.btn:hover{transform:translateY(-2px);border-color:rgba(107,156,255,.7)}
