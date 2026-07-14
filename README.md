@@ -1,11 +1,18 @@
-# PROJECT YATAGARASU — Ver4.0
-- 約6秒の八咫烏オープニング
-- ゲーム起動画面風ホーム
-- START / COMPARISON導線
-- HOMEメニュー
-- 選手検索・ポジション絞り込み
-- 既存の選手詳細・比較・ランキングを維持
+# PROJECT YATAGARASU — Ver5.0
+
+## Major redesign
+- 完全新規の起動画面
+- ENTER THE BLUE
+- 青い粒子・スキャンライン・発光演出
+- ゲームランチャー風HOME
+- 新しいPLAYER HUB
+- 全カードのホバー発光アニメーション
+- 選手詳細・比較・ランキングもデザイン統一
 
 ## 更新方法
-ZIPを解凍し、中身をローカルの samurai-blue-ratings フォルダへ上書きコピー。
-GitHub Desktopで `Release Ver4.0` → Commit to main → Push origin。
+1. ZIPを解凍
+2. 中身をローカルの samurai-blue-ratings フォルダへ上書き
+3. GitHub Desktopで `Release Ver5.0`
+4. Commit to main
+5. Push origin
+6. GitHub PagesをCtrl+F5
