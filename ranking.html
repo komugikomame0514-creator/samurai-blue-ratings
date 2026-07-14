@@ -1,0 +1,9 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ランキング</title><link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/pages.css"></head><body>
+<header class="site-header"><nav class="site-nav">
+<a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png" alt=""><span>SAMURAI BLUE <small>PLAYER RATINGS 2026</small></span></a>
+<div class="nav-links"><a href="index.html">選手一覧</a><a href="compare.html">比較</a><a href="ranking.html">ランキング</a></div>
+</nav></header>
+
+<main class="container"><section class="page-head"><h1 class="page-title">PLAYER RANKING</h1><p class="page-subtitle">日本代表メンバーを総合能力順に表示</p><select id="positionFilter" class="select" style="max-width:240px"><option value="ALL">全ポジション</option><option>GK</option><option>DF</option><option>MF</option><option>FW</option></select></section>
+<section class="panel tab-panel active"><table class="rank-table"><thead><tr><th>順位</th><th>選手</th><th>POS</th><th>クラブ</th><th>OVR</th><th>世界推定</th></tr></thead><tbody id="rankingBody"></tbody></table></section></main>
+<script src="js/data.js"></script><script src="js/ranking.js"></script></body></html>
