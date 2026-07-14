@@ -1,51 +1,75 @@
-<!doctype html><html lang="ja"><head>
+<!doctype html>
+<html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PROJECT YATAGARASU</title>
+<title>PROJECT YATAGARASU — Ver6.0</title>
 <link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/index.css">
 </head><body>
 <div class="boot" id="boot">
-  <div class="boot-scan"></div>
+  <div class="boot-grid"></div>
   <div class="boot-particles" id="particles"></div>
   <div class="boot-inner">
     <img class="boot-logo" src="assets/logo/samurai-blue.png" alt="">
     <div class="boot-title">PROJECT<br><span>YATAGARASU</span></div>
-    <div class="boot-sub">SAMURAI BLUE PLAYER EXPERIENCE</div>
+    <div class="boot-sub">THE GLOBAL FOOTBALL DATABASE BEGINS HERE</div>
     <div class="press"><button id="enterBtn">ENTER THE BLUE</button></div>
   </div>
 </div>
 <header class="site-header"><nav class="site-nav">
-<a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png" alt=""><span>PROJECT YATAGARASU <small>SAMURAI BLUE RATINGS</small></span></a>
+<a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png" alt=""><span>PROJECT YATAGARASU <small>GLOBAL FOOTBALL DATABASE</small></span></a>
 <div class="nav-links"><a class="active" href="index.html">HOME</a><a href="#players">PLAYER</a><a href="compare.html">COMPARE</a><a href="ranking.html">RANKING</a></div>
 </nav></header>
 <main>
 <section class="container hero">
   <div class="hero-copy">
-    <div class="eyebrow">WORLD CUP 2026 / JAPAN NATIONAL TEAM</div>
-    <h1>THE BLUE<br><span>AWAKENS</span></h1>
-    <p>能力、キャリア、比較、ランキング。日本代表選手のすべてを、サッカーゲームのような没入感で体験する。</p>
+    <div class="eyebrow">SAMURAI BLUE / WORLD CUP 2026</div>
+    <h1>THE FUTURE<br><span>STARTS HERE</span></h1>
+    <p>日本代表から、歴代代表、各国代表、世界のリーグへ。PROJECT YATAGARASUは、能力・キャリア・比較・物語を一つにした次世代フットボールデータベースへ進化する。</p>
     <div class="hero-actions">
-      <a class="btn btn-primary hero-btn" href="#players">ENTER PLAYER HUB</a>
-      <a class="btn hero-btn" href="compare.html">START COMPARISON</a>
+      <a class="btn btn-primary hero-btn" href="#players">OPEN PLAYER HUB</a>
+      <a class="btn hero-btn" href="compare.html">COMPARE PLAYERS</a>
     </div>
   </div>
-  <div class="hero-visual">
-    <div class="hero-orbit"></div>
-    <div class="hero-glow"></div>
-    <img class="hero-emblem" src="assets/logo/samurai-blue.png" alt="">
+  <div class="hero-stage">
+    <article id="featuredPlayer" class="panel featured-player"></article>
   </div>
 </section>
 
-<section class="container menu">
-  <a class="panel" href="#players"><div class="menu-index">01 / PLAYER HUB</div><h2>PLAYER</h2><p>全27選手の能力、プロフィール、キャリアを閲覧。</p></a>
-  <a class="panel" href="compare.html"><div class="menu-index">02 / HEAD TO HEAD</div><h2>COMPARE</h2><p>2選手の能力をグラフとバーで徹底比較。</p></a>
-  <a class="panel" href="ranking.html"><div class="menu-index">03 / NATIONAL RANK</div><h2>RANKING</h2><p>総合値とポジション別ランキングを確認。</p></a>
-  <a class="panel" href="#players"><div class="menu-index">04 / DATABASE</div><h2>DATABASE</h2><p>検索とフィルターで選手を瞬時に発見。</p></a>
+<section class="container home-grid">
+  <a class="panel home-card" href="#players"><small>01 / PLAYER HUB</small><h2>PLAYER</h2><p>現代表27選手の能力・AI総評・キャリアを深掘り。</p></a>
+  <a class="panel home-card" href="compare.html"><small>02 / HEAD TO HEAD</small><h2>COMPARE</h2><p>能力値とレーダーで選手の違いを視覚化。</p></a>
+  <a class="panel home-card" href="ranking.html"><small>03 / NATIONAL RANK</small><h2>RANKING</h2><p>総合値・ポジション・影響度でランキング。</p></a>
+  <a class="panel home-card" href="#future"><small>04 / WORLD EXPANSION</small><h2>GLOBAL</h2><p>歴代代表、各国代表、世界リーグへの拡張構想。</p></a>
+</section>
+
+<section class="container snapshot">
+  <article class="panel snapshot-main">
+    <div class="snapshot-title">
+      <div><div class="eyebrow">TEAM SNAPSHOT</div><h2>2026 JAPAN SQUAD</h2></div>
+      <p class="page-subtitle">現在のデータベース状況</p>
+    </div>
+    <div class="snapshot-stats">
+      <div class="snapshot-stat"><b id="countPlayers">27</b><span>REGISTERED PLAYERS</span></div>
+      <div class="snapshot-stat"><b id="avgOvr">—</b><span>AVERAGE OVR</span></div>
+      <div class="snapshot-stat"><b id="topOvr">—</b><span>TOP RATING</span></div>
+      <div class="snapshot-stat"><b id="youngest">—</b><span>YOUNGEST AGE</span></div>
+    </div>
+  </article>
+  <aside id="future" class="panel roadmap">
+    <div class="eyebrow">EXPANSION ROADMAP</div>
+    <h2>BEYOND JAPAN</h2>
+    <div class="roadmap-list">
+      <div class="roadmap-item"><i></i><span>歴代日本代表データベース</span></div>
+      <div class="roadmap-item"><i></i><span>各国代表・W杯モード</span></div>
+      <div class="roadmap-item"><i></i><span>欧州5大リーグ・Jリーグ</span></div>
+      <div class="roadmap-item"><i></i><span>年度別能力推移・ベストXI</span></div>
+    </div>
+  </aside>
 </section>
 
 <section id="players" class="container players">
   <div class="section-head">
     <div><div class="eyebrow">NATIONAL TEAM DATABASE</div><h2 class="page-title">PLAYER SELECT</h2></div>
-    <p class="page-subtitle">カードを選択して詳細ページへ</p>
+    <p class="page-subtitle">AI総評を搭載した選手ページへ</p>
   </div>
   <div class="toolbar">
     <input id="search" class="search" placeholder="選手名・クラブ名で検索">
@@ -60,19 +84,6 @@
   <section id="playerGrid" class="player-grid"></section>
 </section>
 </main>
-<footer class="footer">PROJECT YATAGARASU / UNOFFICIAL FAN-MADE EXPERIENCE</footer>
-<script src="js/data.js"></script><script src="js/index.js"></script>
-<script>
-const boot=document.getElementById("boot");
-const particles=document.getElementById("particles");
-for(let i=0;i<55;i++){
-  const p=document.createElement("i");
-  p.style.left=Math.random()*100+"%";
-  p.style.animationDuration=(5+Math.random()*7)+"s";
-  p.style.animationDelay=(-Math.random()*8)+"s";
-  p.style.opacity=Math.random();
-  particles.appendChild(p);
-}
-document.getElementById("enterBtn").addEventListener("click",()=>boot.classList.add("hidden"));
-</script>
+<footer class="footer">PROJECT YATAGARASU VER6.0 / UNOFFICIAL FAN-MADE FOOTBALL DATABASE</footer>
+<script src="js/data.js"></script><script src="js/index-v6.js"></script>
 </body></html>

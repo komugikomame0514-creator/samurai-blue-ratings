@@ -1,17 +1,20 @@
-# PROJECT YATAGARASU — Ver5.2 FIX
+# PROJECT YATAGARASU — Ver6.0
 
-## 修正内容
-- 能力欄が空白になる不具合を修正
-- 古いdata.jsでも15能力を自動生成
-- DOM要素をIDグローバル変数に依存せず安全に取得
-- 10軸レーダーチャートをレスポンシブ・高解像度化
-- 画面幅変更時の再描画に対応
-- プロフィール情報の欠損時にも表示が止まらないよう修正
+## Major Rebirth
+- ホーム画面を代表ポータルとして全面刷新
+- FEATURED PLAYERを追加
+- チーム平均OVR・最高OVR・最年少年齢を表示
+- 世界展開ロードマップを追加
+- 選手ページを新レイアウトへ刷新
+- 全27選手にAI総評を追加
+- 適性ロール、影響度、成長性、主要な強みを表示
+- 15能力 + 10軸高解像度レーダー
+- 将来の歴代代表・各国代表・世界リーグ追加を想定した設計
 
-## 更新方法
+## GitHub更新
 1. ZIPを解凍
 2. 中身をローカルの samurai-blue-ratings フォルダへ上書き
-3. GitHub Desktop Summary: `Fix player stats Ver5.2`
+3. Summary: `Release Ver6.0`
 4. Commit to main
 5. Push origin
 6. 公開ページを Ctrl + F5
