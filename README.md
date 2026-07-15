@@ -1,22 +1,13 @@
-# PROJECT YATAGARASU — Ver6.3 LEGENDS MODE
+# PROJECT YATAGARASU — Ver6.4 LEGENDS DEEP DIVE
 
-## New
-- 歴代日本代表モードを追加
-- 1998 / 2002 / 2010 / 2018 / 2022の5大会
-- 大会ストーリー、到達ラウンド、戦績を表示
-- 各大会のキープレーヤーを収録
-- 大会版オリジナルOVRと6能力
-- JFA公式ワールドカップヒストリーへの参照リンク
-- ホームと各ページのナビにLEGENDSを追加
+- 歴代カードにJFA公式の大会当時写真を表示
+- 大会ヒーローに当時のチーム写真
+- カードから歴代選手詳細ページへ
+- 大会時OVR、6能力、レーダー
+- 大会時AI総評、影響度、レガシークラス
+- 大会ストーリー、戦績、試合結果
+- JFA公式資料へのリンク
 
-## 注意
-歴史・大会結果はJFA公式資料を参考にしています。
-能力値と選手役割はPROJECT YATAGARASU独自査定です。
+写真はJFA公式ページの画像URLを参照表示し、画像自体はZIPへ再配布していません。
 
-## Update
-1. ZIP解凍
-2. samurai-blue-ratingsへ上書き
-3. Summary: `Release Ver6.3 Legends`
-4. Commit to main
-5. Push origin
-6. Ctrl + F5
+Summary: `Release Ver6.4 Legends Deep Dive`

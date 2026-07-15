@@ -23,3 +23,12 @@
 .source-note{margin-top:24px;padding:16px;border:1px solid var(--line);border-radius:14px;color:#9daabe;font-size:12px;line-height:1.7}.source-note a{color:var(--gold-soft)}
 @media(max-width:1050px){.era-hero{grid-template-columns:1fr}.legend-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:650px){.legends-wrap{padding-left:12px;padding-right:12px}.legends-head{display:block}.legends-head p{margin-top:18px}.era-hero{padding:22px}.legend-grid{grid-template-columns:1fr}}
+
+.era-hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:.20;filter:saturate(.85) contrast(1.1)}
+.era-hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,9,22,.98) 5%,rgba(2,9,22,.82) 54%,rgba(2,9,22,.48))}
+.legend-card-link{display:block;text-decoration:none}
+.legend-photo{position:absolute;right:0;top:0;width:48%;height:100%;object-fit:cover;object-position:center top;opacity:.74;mask-image:linear-gradient(90deg,transparent 0%,black 34%)}
+.legend-card::after{content:"VIEW DETAIL";position:absolute;right:20px;top:20px;z-index:3;font-size:9px;letter-spacing:.13em;color:var(--gold-soft);opacity:0;transition:.22s}
+.legend-card:hover::after{opacity:1}
+.legend-card > *:not(.legend-photo){position:relative;z-index:2}
+.photo-credit{margin-top:8px;color:#788aa4;font-size:10px;line-height:1.55}
