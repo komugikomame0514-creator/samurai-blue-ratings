@@ -1,89 +1,81 @@
 <!doctype html>
 <html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PROJECT YATAGARASU — Ver6.0</title>
+<title>PROJECT YATAGARASU — Ver6.1 REBORN</title>
 <link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/index.css">
 </head><body>
-<div class="boot" id="boot">
-  <div class="boot-grid"></div>
-  <div class="boot-particles" id="particles"></div>
-  <div class="boot-inner">
-    <img class="boot-logo" src="assets/logo/samurai-blue.png" alt="">
-    <div class="boot-title">PROJECT<br><span>YATAGARASU</span></div>
-    <div class="boot-sub">THE GLOBAL FOOTBALL DATABASE BEGINS HERE</div>
-    <div class="press"><button id="enterBtn">ENTER THE BLUE</button></div>
-  </div>
-</div>
 <header class="site-header"><nav class="site-nav">
 <a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png" alt=""><span>PROJECT YATAGARASU <small>GLOBAL FOOTBALL DATABASE</small></span></a>
 <div class="nav-links"><a class="active" href="index.html">HOME</a><a href="#players">PLAYER</a><a href="compare.html">COMPARE</a><a href="ranking.html">RANKING</a></div>
 </nav></header>
-<main>
-<section class="container hero">
-  <div class="hero-copy">
-    <div class="eyebrow">SAMURAI BLUE / WORLD CUP 2026</div>
-    <h1>THE FUTURE<br><span>STARTS HERE</span></h1>
-    <p>日本代表から、歴代代表、各国代表、世界のリーグへ。PROJECT YATAGARASUは、能力・キャリア・比較・物語を一つにした次世代フットボールデータベースへ進化する。</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary hero-btn" href="#players">OPEN PLAYER HUB</a>
-      <a class="btn hero-btn" href="compare.html">COMPARE PLAYERS</a>
-    </div>
-  </div>
-  <div class="hero-stage">
-    <article id="featuredPlayer" class="panel featured-player"></article>
-  </div>
-</section>
-
-<section class="container home-grid">
-  <a class="panel home-card" href="#players"><small>01 / PLAYER HUB</small><h2>PLAYER</h2><p>現代表27選手の能力・AI総評・キャリアを深掘り。</p></a>
-  <a class="panel home-card" href="compare.html"><small>02 / HEAD TO HEAD</small><h2>COMPARE</h2><p>能力値とレーダーで選手の違いを視覚化。</p></a>
-  <a class="panel home-card" href="ranking.html"><small>03 / NATIONAL RANK</small><h2>RANKING</h2><p>総合値・ポジション・影響度でランキング。</p></a>
-  <a class="panel home-card" href="#future"><small>04 / WORLD EXPANSION</small><h2>GLOBAL</h2><p>歴代代表、各国代表、世界リーグへの拡張構想。</p></a>
-</section>
-
-<section class="container snapshot">
-  <article class="panel snapshot-main">
-    <div class="snapshot-title">
-      <div><div class="eyebrow">TEAM SNAPSHOT</div><h2>2026 JAPAN SQUAD</h2></div>
-      <p class="page-subtitle">現在のデータベース状況</p>
-    </div>
-    <div class="snapshot-stats">
-      <div class="snapshot-stat"><b id="countPlayers">27</b><span>REGISTERED PLAYERS</span></div>
-      <div class="snapshot-stat"><b id="avgOvr">—</b><span>AVERAGE OVR</span></div>
-      <div class="snapshot-stat"><b id="topOvr">—</b><span>TOP RATING</span></div>
-      <div class="snapshot-stat"><b id="youngest">—</b><span>YOUNGEST AGE</span></div>
-    </div>
-  </article>
-  <aside id="future" class="panel roadmap">
-    <div class="eyebrow">EXPANSION ROADMAP</div>
-    <h2>BEYOND JAPAN</h2>
-    <div class="roadmap-list">
-      <div class="roadmap-item"><i></i><span>歴代日本代表データベース</span></div>
-      <div class="roadmap-item"><i></i><span>各国代表・W杯モード</span></div>
-      <div class="roadmap-item"><i></i><span>欧州5大リーグ・Jリーグ</span></div>
-      <div class="roadmap-item"><i></i><span>年度別能力推移・ベストXI</span></div>
-    </div>
+<div class="home-shell">
+  <aside class="vertical-menu">
+    <img class="vm-logo" src="assets/logo/samurai-blue.png" alt="">
+    <nav class="vm-links">
+      <a class="active" href="#home">⌂<span>HOME</span></a>
+      <a href="#players">◉<span>PLAYER</span></a>
+      <a href="compare.html">◌<span>COMPARE</span></a>
+      <a href="ranking.html">▥<span>RANK</span></a>
+    </nav>
+    <div class="vm-index">VER 6.1 / REBORN</div>
   </aside>
-</section>
 
-<section id="players" class="container players">
-  <div class="section-head">
-    <div><div class="eyebrow">NATIONAL TEAM DATABASE</div><h2 class="page-title">PLAYER SELECT</h2></div>
-    <p class="page-subtitle">AI総評を搭載した選手ページへ</p>
-  </div>
-  <div class="toolbar">
-    <input id="search" class="search" placeholder="選手名・クラブ名で検索">
-    <div class="filters">
-      <button class="btn filter active" data-filter="ALL">ALL</button>
-      <button class="btn filter" data-filter="GK">GK</button>
-      <button class="btn filter" data-filter="DF">DF</button>
-      <button class="btn filter" data-filter="MF">MF</button>
-      <button class="btn filter" data-filter="FW">FW</button>
-    </div>
-  </div>
-  <section id="playerGrid" class="player-grid"></section>
-</section>
-</main>
-<footer class="footer">PROJECT YATAGARASU VER6.0 / UNOFFICIAL FAN-MADE FOOTBALL DATABASE</footer>
-<script src="js/data.js"></script><script src="js/index-v6.js"></script>
+  <main class="home-main">
+    <section id="home" class="hero-screen">
+      <div class="hero-copy">
+        <div class="kicker">PREMIUM JAPAN FOOTBALL EXPERIENCE</div>
+        <h1>BLUE<br><span>REIMAGINED</span></h1>
+        <p>今までの画面構成を捨て、群青・白・金で再構築。日本代表選手を“データ”ではなく、“作品”として見せるPROJECT YATAGARASUの新章。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#players">ENTER PLAYER SHOWCASE</a>
+          <a class="btn" href="compare.html">OPEN COMPARISON</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="giant-symbol"><img src="assets/logo/samurai-blue.png" alt=""></div>
+        <div id="featureStage" class="feature-stage"></div>
+      </div>
+    </section>
+
+    <section class="home-section">
+      <div class="section-head">
+        <div><div class="kicker">MAIN MODES</div><h2 class="page-title">CHOOSE YOUR PATH</h2></div>
+        <p class="page-subtitle">全画面型の新しい導線</p>
+      </div>
+      <div class="mode-grid">
+        <a class="panel mode-card big" href="#players"><small>01 / PLAYER SHOWCASE</small><h2>PLAYER</h2><p>横スクロール型のショーケースから、各選手の新しい3カラムページへ。</p></a>
+        <a class="panel mode-card" href="compare.html"><small>02 / HEAD TO HEAD</small><h2>COMPARE</h2><p>2選手の違いを視覚的に比較。</p></a>
+        <a class="panel mode-card" href="ranking.html"><small>03 / POWER INDEX</small><h2>RANKING</h2><p>総合値と影響度を順位化。</p></a>
+      </div>
+    </section>
+
+    <section id="players" class="home-section">
+      <div class="section-head">
+        <div><div class="kicker">NATIONAL TEAM SHOWCASE</div><h2 class="page-title">PLAYER LINEUP</h2></div>
+        <div class="filter-row">
+          <button class="btn filter active" data-filter="ALL">ALL</button>
+          <button class="btn filter" data-filter="GK">GK</button>
+          <button class="btn filter" data-filter="DF">DF</button>
+          <button class="btn filter" data-filter="MF">MF</button>
+          <button class="btn filter" data-filter="FW">FW</button>
+        </div>
+      </div>
+      <div class="showcase-wrap"><div id="showcase" class="showcase"></div></div>
+    </section>
+
+    <section class="home-section">
+      <div class="section-head">
+        <div><div class="kicker">FUTURE EXPANSION</div><h2 class="page-title">BEYOND JAPAN</h2></div>
+      </div>
+      <div class="future-strip">
+        <div class="future-item"><b>LEGENDS</b><span>歴代日本代表</span></div>
+        <div class="future-item"><b>NATIONS</b><span>各国代表</span></div>
+        <div class="future-item"><b>LEAGUES</b><span>世界の各リーグ</span></div>
+        <div class="future-item"><b>ERAS</b><span>年度別能力推移</span></div>
+      </div>
+    </section>
+  </main>
+</div>
+<footer class="footer">PROJECT YATAGARASU VER6.1 REBORN</footer>
+<script src="js/data.js"></script><script src="js/index-v61.js"></script>
 </body></html>

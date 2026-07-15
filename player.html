@@ -5,73 +5,49 @@
 <link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/pages.css">
 </head><body>
 <header class="site-header"><nav class="site-nav">
-<a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png" alt=""><span>PROJECT YATAGARASU <small>GLOBAL FOOTBALL DATABASE</small></span></a>
+<a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png" alt=""><span>PROJECT YATAGARASU <small>PLAYER PORTRAIT</small></span></a>
 <div class="nav-links"><a href="index.html">HOME</a><a class="active" href="index.html#players">PLAYER</a><a href="compare.html">COMPARE</a><a href="ranking.html">RANKING</a></div>
 </nav></header>
 
-<div class="player-shell">
-<aside class="side-rail">
-  <div class="side-brand"><img src="assets/logo/samurai-blue.png" alt=""><strong>YATAGARASU</strong><small>VER6.0 DATABASE</small></div>
-  <nav class="side-menu">
-    <a href="index.html"><span class="side-icon">⌂</span><span><b>HOME</b><small>ホーム</small></span></a>
-    <a class="active" href="index.html#players"><span class="side-icon">◉</span><span><b>PLAYER</b><small>選手一覧</small></span></a>
-    <a href="compare.html"><span class="side-icon">◌</span><span><b>COMPARE</b><small>選手比較</small></span></a>
-    <a href="ranking.html"><span class="side-icon">▥</span><span><b>RANKING</b><small>ランキング</small></span></a>
-    <a href="#"><span class="side-icon">♛</span><span><b>BEST XI</b><small>将来実装</small></span></a>
-    <a href="#"><span class="side-icon">◎</span><span><b>WORLD</b><small>将来実装</small></span></a>
-  </nav>
-</aside>
-
-<main class="player-main">
-  <section class="player-hero">
-    <div class="identity-card">
-      <img id="photo" alt="">
-      <div class="card-top">
-        <div id="ovr" class="card-ovr"></div>
-        <div id="position" class="card-pos"></div>
-        <div class="card-badge"><span id="rarity"></span><span>JAPAN</span></div>
-      </div>
-      <div class="card-bottom">
-        <h1 id="name"></h1><div id="english" class="en"></div><div id="birth" class="birth"></div>
-        <div class="club-strip"><span id="clubName"></span><span id="number"></span></div>
-      </div>
-    </div>
-
-    <div class="player-content">
-      <section class="panel top-dashboard">
-        <div class="stats-column">
-          <h2>能力値 <span>15 ATTRIBUTE DATA</span></h2>
-          <div id="longStats" class="long-stat-list"></div>
-        </div>
-        <div class="radar-zone">
-          <div class="radar-overall"><small>OVERALL</small><b id="radarOvr"></b></div>
-          <canvas id="radar"></canvas>
-        </div>
-      </section>
-
-      <section class="panel ai-panel">
-        <div class="ai-label"><i></i> AI SCOUT REPORT</div>
-        <h2>AI総評</h2>
-        <p id="aiReview" class="ai-review"></p>
-        <div class="ai-grid">
-          <div class="ai-metric"><span>BEST ROLE</span><b id="bestRole"></b></div>
-          <div class="ai-metric"><span>IMPACT SCORE</span><b id="impactScore"></b></div>
-          <div class="ai-metric"><span>GROWTH POTENTIAL</span><b id="growthPotential"></b></div>
-          <div class="ai-metric"><span>KEY STRENGTHS</span><div id="keyStrengths" class="strength-list"></div></div>
-        </div>
-      </section>
+<main class="player-layout">
+  <section class="player-photo-zone">
+    <img id="photo" alt="">
+    <div class="ovr-chip"><div><b id="ovr"></b><span>OVERALL</span></div></div>
+    <div class="player-id">
+      <div class="meta-line"><span id="position"></span><span id="rarity"></span><span>JAPAN</span></div>
+      <h1 id="name"></h1>
+      <div id="english" class="en"></div>
+      <div class="clubline"><span id="clubName"></span><span id="number"></span></div>
     </div>
   </section>
 
-  <section class="panel playstyle-panel">
-    <h2 class="section-title">プレースタイル</h2>
-    <p id="description" class="playstyle-text"></p>
-    <div id="traits" class="trait-chips"></div>
+  <section class="stats-zone">
+    <div class="kicker">ATTRIBUTE PROFILE</div>
+    <h2>能力分析</h2>
+    <div class="subhead">10-AXIS RADAR / 15 ATTRIBUTE DATA</div>
+    <div class="ten-radar"><canvas id="radar"></canvas></div>
+    <div id="statStack" class="stat-stack"></div>
   </section>
 
-  <section id="profileGrid" class="profile-grid-v2"></section>
+  <section class="analysis-zone">
+    <div class="kicker">AI SCOUT REPORT</div>
+    <h2>選手総評</h2>
+
+    <article class="ai-block">
+      <div class="ai-tag">PROJECT YATAGARASU AI ANALYSIS</div>
+      <h3 id="bestRole"></h3>
+      <p id="aiReview"></p>
+      <div class="analysis-metrics">
+        <div class="analysis-metric"><span>IMPACT SCORE</span><b id="impactScore"></b></div>
+        <div class="analysis-metric"><span>GROWTH POTENTIAL</span><b id="growthPotential"></b></div>
+        <div class="analysis-metric"><span>KEY STRENGTHS</span><div id="keyStrengths" class="strengths"></div></div>
+        <div class="analysis-metric"><span>PLAY STYLE</span><div id="traits" class="strengths"></div></div>
+      </div>
+    </article>
+
+    <div id="profileStack" class="profile-stack"></div>
+  </section>
 </main>
-</div>
 
-<script src="js/data.js"></script><script src="js/common.js"></script><script src="js/player-v6.js"></script>
+<script src="js/data.js"></script><script src="js/common.js"></script><script src="js/player-v61.js"></script>
 </body></html>
