@@ -1,19 +1,19 @@
-# PROJECT YATAGARASU — Ver6.1 REBORN
-
-## Visual Rebirth
-- ホームを全画面型ビジュアルへ変更
-- 左側に縦型メニューを追加
-- 八咫烏を巨大背景シンボルとして使用
-- 選手一覧を横スクロールのショーケースへ変更
-- 配色を群青・白・金のプレミアムテーマへ変更
-- 選手ページを巨大写真 / 能力 / AI総評の3カラム固定構成へ刷新
-- AI総評・影響度・成長性・強み・プロフィールを再整理
-- 旧Ver6.0とは別サイトに見えるレベルで全面再設計
+# PROJECT YATAGARASU — Ver6.2
 
 ## Update
+- 比較ページを全面刷新
+- 選手カード、6能力バー、個別レーダー、AI比較総評を追加
+- ランキングページを全面刷新
+- 上位3名をポディウム表示
+- OVR / 影響度 / 若手順の切り替え
+- 選手ページの「能力分析」と「選手総評」を完全分離
+- 能力分析は数値・レーダー専用
+- 選手総評は役割・適性・成長性・AI評価専用
+
+## Update steps
 1. ZIP解凍
-2. 中身を samurai-blue-ratings フォルダへ上書き
-3. Summary: `Release Ver6.1 Reborn`
+2. samurai-blue-ratingsへ上書き
+3. Summary: `Release Ver6.2`
 4. Commit to main
 5. Push origin
 6. Ctrl + F5

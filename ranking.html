@@ -1,9 +1,40 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ランキング</title><link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/pages.css"></head><body>
+<!doctype html>
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RANKING | PROJECT YATAGARASU</title>
+<link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/pages.css">
+</head><body>
 <header class="site-header"><nav class="site-nav">
 <a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png" alt=""><span>PROJECT YATAGARASU <small>GLOBAL FOOTBALL DATABASE</small></span></a>
-<div class="nav-links"><a href="index.html">HOME</a><a href="index.html#players">PLAYER</a><a  href="compare.html">COMPARE</a><a class='active' href="ranking.html">RANKING</a></div>
+<div class="nav-links"><a href="index.html">HOME</a><a href="index.html#players">PLAYER</a><a href="compare.html">COMPARE</a><a class="active" href="ranking.html">RANKING</a></div>
 </nav></header>
 
-<main class="container"><section class="page-head"><h1 class="page-title">PLAYER RANKING</h1><p class="page-subtitle">日本代表メンバーを総合能力順に表示</p><select id="positionFilter" class="select" style="max-width:240px"><option value="ALL">全ポジション</option><option>GK</option><option>DF</option><option>MF</option><option>FW</option></select></section>
-<section class="panel tab-panel active"><table class="rank-table"><thead><tr><th>順位</th><th>選手</th><th>POS</th><th>クラブ</th><th>OVR</th><th>世界推定</th></tr></thead><tbody id="rankingBody"></tbody></table></section></main>
-<script src="js/data.js"></script><script src="js/ranking.js"></script></body></html>
+<main class="ranking-page">
+  <div class="page-wrap">
+    <div class="page-heading">
+      <div><div class="kicker">POWER INDEX</div><h1>RANKING</h1></div>
+      <p>総合値・影響度・ポジションで並べ替え</p>
+    </div>
+
+    <div class="ranking-controls">
+      <select id="rankType" class="ranking-select">
+        <option value="ovr">総合能力 OVR</option>
+        <option value="impactScore">影響度スコア</option>
+        <option value="ageAsc">若手順</option>
+      </select>
+      <select id="positionFilter" class="ranking-select">
+        <option value="ALL">全ポジション</option>
+        <option value="GK">GK</option>
+        <option value="DF">DF</option>
+        <option value="MF">MF</option>
+        <option value="FW">FW</option>
+      </select>
+    </div>
+
+    <section id="podium" class="podium"></section>
+    <section id="rankingList" class="ranking-list"></section>
+  </div>
+</main>
+
+<script src="js/data.js"></script><script src="js/ranking-v62.js"></script>
+</body></html>

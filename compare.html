@@ -1,9 +1,48 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>選手比較</title><link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/pages.css"></head><body>
+<!doctype html>
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>COMPARE | PROJECT YATAGARASU</title>
+<link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/pages.css">
+</head><body>
 <header class="site-header"><nav class="site-nav">
 <a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png" alt=""><span>PROJECT YATAGARASU <small>GLOBAL FOOTBALL DATABASE</small></span></a>
-<div class="nav-links"><a href="index.html">HOME</a><a href="index.html#players">PLAYER</a><a class='active' href="compare.html">COMPARE</a><a  href="ranking.html">RANKING</a></div>
+<div class="nav-links"><a href="index.html">HOME</a><a href="index.html#players">PLAYER</a><a class="active" href="compare.html">COMPARE</a><a href="ranking.html">RANKING</a></div>
 </nav></header>
 
-<main class="container"><section class="page-head"><h1 class="page-title">PLAYER COMPARISON</h1><p class="page-subtitle">2人の選手能力を横並びで比較</p></section>
-<section class="panel tab-panel active"><div class="compare-layout"><select id="playerA" class="select"></select><select id="playerB" class="select"></select></div><div id="compareRows"></div><canvas id="compareRadar" width="760" height="430"></canvas></section></main>
-<script src="js/data.js"></script><script src="js/common.js"></script><script src="js/compare.js"></script></body></html>
+<main class="compare-page">
+  <div class="page-wrap">
+    <div class="page-heading">
+      <div><div class="kicker">HEAD TO HEAD</div><h1>COMPARE</h1></div>
+      <p>2選手の能力・役割・AI評価を並べて比較</p>
+    </div>
+
+    <section class="compare-selectors">
+      <article id="leftCard" class="panel compare-card"></article>
+      <div class="vs-mark">VS</div>
+      <article id="rightCard" class="panel compare-card"></article>
+    </section>
+
+    <section class="compare-dashboard">
+      <article class="panel compare-panel">
+        <h3>6項目能力比較</h3>
+        <div id="compareBars" class="compare-bars"></div>
+      </article>
+
+      <article class="panel compare-panel">
+        <h3>レーダー比較</h3>
+        <div class="compare-radar-wrap">
+          <div class="mini-radar"><h4 id="leftRadarName"></h4><canvas id="leftRadar"></canvas></div>
+          <div class="mini-radar"><h4 id="rightRadarName"></h4><canvas id="rightRadar"></canvas></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="panel compare-summary">
+      <div class="kicker">AI COMPARISON SUMMARY</div>
+      <div id="compareSummary" class="compare-summary-grid"></div>
+    </section>
+  </div>
+</main>
+
+<script src="js/data.js"></script><script src="js/common.js"></script><script src="js/compare-v62.js"></script>
+</body></html>
