@@ -1,19 +1,22 @@
-# PROJECT YATAGARASU — Ver6.2
+# PROJECT YATAGARASU — Ver6.3 LEGENDS MODE
+
+## New
+- 歴代日本代表モードを追加
+- 1998 / 2002 / 2010 / 2018 / 2022の5大会
+- 大会ストーリー、到達ラウンド、戦績を表示
+- 各大会のキープレーヤーを収録
+- 大会版オリジナルOVRと6能力
+- JFA公式ワールドカップヒストリーへの参照リンク
+- ホームと各ページのナビにLEGENDSを追加
+
+## 注意
+歴史・大会結果はJFA公式資料を参考にしています。
+能力値と選手役割はPROJECT YATAGARASU独自査定です。
 
 ## Update
-- 比較ページを全面刷新
-- 選手カード、6能力バー、個別レーダー、AI比較総評を追加
-- ランキングページを全面刷新
-- 上位3名をポディウム表示
-- OVR / 影響度 / 若手順の切り替え
-- 選手ページの「能力分析」と「選手総評」を完全分離
-- 能力分析は数値・レーダー専用
-- 選手総評は役割・適性・成長性・AI評価専用
-
-## Update steps
 1. ZIP解凍
 2. samurai-blue-ratingsへ上書き
-3. Summary: `Release Ver6.2`
+3. Summary: `Release Ver6.3 Legends`
 4. Commit to main
 5. Push origin
 6. Ctrl + F5

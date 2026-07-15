@@ -1,0 +1,25 @@
+
+.legends-page{padding-top:110px;min-height:100vh}
+.legends-wrap{max-width:1680px;margin:auto;padding:0 28px 60px}
+.legends-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}
+.legends-head h1{margin:0;font-size:clamp(48px,6vw,96px);line-height:.82;font-style:italic;letter-spacing:-.065em}
+.legends-head p{max-width:620px;color:var(--muted);line-height:1.8}
+.era-tabs{display:flex;gap:10px;overflow-x:auto;padding-bottom:12px}
+.era-tab{min-width:140px;padding:13px 16px;border:1px solid var(--line);border-radius:999px;color:#aab6c8;background:rgba(6,17,36,.70)}
+.era-tab.active{color:#081020;border-color:transparent;background:linear-gradient(135deg,var(--gold-soft),var(--gold));font-weight:950}
+.era-hero{position:relative;min-height:390px;margin-top:12px;border-radius:28px;overflow:hidden;padding:34px;display:grid;grid-template-columns:1fr .65fr;gap:24px}
+.era-hero::before{content:"";position:absolute;right:-5%;top:-25%;width:520px;height:520px;border-radius:50%;border:1px solid color-mix(in srgb,var(--era-accent) 34%,transparent);box-shadow:0 0 90px color-mix(in srgb,var(--era-accent) 18%,transparent)}
+.era-hero::after{content:attr(data-year);position:absolute;right:22px;bottom:-42px;font-size:180px;font-weight:950;font-style:italic;letter-spacing:-.08em;color:rgba(255,255,255,.035)}
+.era-copy{position:relative;z-index:2}.era-copy small{color:var(--era-accent);letter-spacing:.19em;font-weight:900}.era-copy h2{margin:14px 0 0;font-size:clamp(44px,5vw,78px);line-height:.9}.era-copy .host{margin-top:10px;color:#b7c4d7;font-size:18px}.era-story{margin-top:24px;max-width:850px;color:#d4deec;line-height:1.95}
+.era-facts{position:relative;z-index:2;display:grid;gap:12px;align-content:center}.era-fact{padding:17px;border:1px solid var(--line);border-radius:16px;background:rgba(5,14,31,.64)}.era-fact span{display:block;color:#7f91aa;font-size:10px;letter-spacing:.11em}.era-fact b{display:block;margin-top:7px;font-size:23px}
+.legends-section{margin-top:34px}.legends-section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:18px}.legends-section-head h2{margin:0;font-size:38px}.legends-section-head p{color:var(--muted)}
+.legend-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.legend-card{position:relative;min-height:330px;padding:20px;border-radius:22px;overflow:hidden;transition:.25s}
+.legend-card:hover{transform:translateY(-7px);border-color:color-mix(in srgb,var(--era-accent) 50%,transparent)}
+.legend-card::before{content:attr(data-initials);position:absolute;right:-12px;top:15px;font-size:112px;font-weight:950;color:rgba(255,255,255,.035);letter-spacing:-.10em}
+.legend-no{font-size:44px;font-weight:950;color:var(--era-accent)}.legend-pos{margin-top:4px;color:#a8b7cb;font-size:12px}.legend-card h3{margin:62px 0 2px;font-size:27px}.legend-en{color:#8798b2;font-size:11px}.legend-role{margin-top:12px;color:#d5c087;font-size:12px}
+.legend-ovr{position:absolute;right:20px;bottom:20px;font-size:48px;font-weight:950}.legend-ovr small{font-size:11px;color:#8999b0}
+.legend-stats{position:absolute;left:20px;right:92px;bottom:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:5px}.legend-stat{font-size:10px;color:#8191aa}.legend-stat b{display:block;color:#dce5f2;font-size:13px}
+.source-note{margin-top:24px;padding:16px;border:1px solid var(--line);border-radius:14px;color:#9daabe;font-size:12px;line-height:1.7}.source-note a{color:var(--gold-soft)}
+@media(max-width:1050px){.era-hero{grid-template-columns:1fr}.legend-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.legends-wrap{padding-left:12px;padding-right:12px}.legends-head{display:block}.legends-head p{margin-top:18px}.era-hero{padding:22px}.legend-grid{grid-template-columns:1fr}}
