@@ -1,0 +1,31 @@
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VER8 CORE EXPERIENCE | PROJECT YATAGARASU</title>
+<link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/core-v80.css"><link rel="stylesheet" href="css/intro-v80.css">
+<style>
+.core-hero{min-height:100vh;padding-top:76px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:24px;padding-left:4vw;padding-right:4vw}
+.core-visual{min-height:620px;position:relative;display:grid;place-items:center}
+.core-orbit{width:480px;aspect-ratio:1;border-radius:50%;border:1px solid rgba(255,255,255,.12);box-shadow:0 0 100px rgba(54,108,245,.18),inset 0 0 100px rgba(54,108,245,.09);display:grid;place-items:center}
+.core-orbit img{width:46%;opacity:.24;filter:grayscale(1) brightness(1.8)}
+.core-roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}
+.roadmap-card{padding:18px}.roadmap-card span{color:var(--accent);font-size:10px;letter-spacing:.14em}.roadmap-card h3{margin:18px 0 5px}.roadmap-card p{margin:0;color:var(--muted);font-size:11px;line-height:1.6}
+@media(max-width:900px){.core-hero{grid-template-columns:1fr}.core-roadmap{grid-template-columns:1fr}.core-orbit{width:300px}}
+</style></head><body data-theme="japan">
+<div class="fx-grid"></div>
+<div id="y80Intro" class="y80-intro"><div class="y80-stadium"></div><div class="y80-light l1"></div><div class="y80-light l2"></div><div class="y80-grid"></div><div class="y80-center"><img class="y80-logo" src="assets/ui/yatagarasu.png"><div class="y80-title">PROJECT<br><span>YATAGARASU</span></div><div class="y80-sub">WORLD FOOTBALL DATABASE / VER 8.0</div><div class="y80-loader"><i></i></div><div class="y80-enter"><button id="y80Enter">ENTER THE DATABASE</button></div></div></div>
+<header class="app-header"><nav class="app-nav"><a class="app-brand" href="index.html"><img src="assets/logo/samurai-blue.png"><span>PROJECT YATAGARASU <small>VER8 CORE EXPERIENCE</small></span></a><div class="app-links"><a href="index.html">HOME</a><a href="world-map.html">WORLD GLOBE</a><a href="nations.html">NATIONS</a><a href="compare.html">AI COMPARE</a></div></nav></header>
+<main class="app-shell">
+<section class="core-hero">
+<div><div class="kicker">PHASE 01 / CORE EXPERIENCE</div><h1 class="display-title">THE NEW<br><span>FOUNDATION</span></h1><p class="lead">Ver8.0は一度に膨らませず、まず全ページの体験を統一する。映画的オープニング、国別テーマ、共通UI、ページ遷移、AIスカウト用データ構造を完成させる。</p><div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:24px"><a class="ui-btn primary" href="index.html">ENTER CURRENT SITE</a><a class="ui-btn" href="world-map.html">OPEN WORLD GLOBE</a></div></div>
+<div class="core-visual"><div class="core-orbit"><img src="assets/ui/yatagarasu.png"></div></div>
+</section>
+<section class="page-section"><div class="kicker">VER8 DEVELOPMENT ROADMAP</div><h2 class="display-title" style="font-size:clamp(40px,5vw,78px)">BUILD IN ORDER</h2><div class="core-roadmap">
+<article class="ui-card roadmap-card"><span>PHASE 01 / NOW</span><h3>CORE EXPERIENCE</h3><p>UI、オープニング、遷移、テーマ、共通構造。</p></article>
+<article class="ui-card roadmap-card"><span>PHASE 02</span><h3>AI SCOUT SYSTEM</h3><p>全選手固有称号、総評、強み、弱点、将来性。</p></article>
+<article class="ui-card roadmap-card"><span>PHASE 03</span><h3>JAPAN COMPLETE</h3><p>現代表、歴代、年代別、日本代表図鑑完成。</p></article>
+<article class="ui-card roadmap-card"><span>PHASE 04</span><h3>BRAZIL COMPLETE</h3><p>ブラジル完全版を各国テンプレートへ。</p></article>
+<article class="ui-card roadmap-card"><span>PHASE 05</span><h3>WORLD GLOBE</h3><p>ズーム、国別演出、遷移体験を完成。</p></article>
+<article class="ui-card roadmap-card"><span>PHASE 06</span><h3>GLOBAL EXPANSION</h3><p>アルゼンチン、フランス、世界各国へ。</p></article>
+</div></section>
+</main>
+<script src="js/core-v80.js"></script><script src="js/intro-v80.js"></script></body></html>

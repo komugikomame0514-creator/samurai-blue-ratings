@@ -2688,3 +2688,12 @@ window.SAMURAI_PLAYERS = [
     "rarity": "RISING"
   }
 ];
+
+
+window.YATA_SCOUT_SCHEMA_V80 = {
+  version:"8.0-phase1",
+  fields:[
+    "uniqueTitle","oneLineIdentity","strengthNarrative","weaknessNarrative",
+    "bestUsage","riskProfile","similarPlayer","futureProjection","comparisonNote"
+  ]
+};

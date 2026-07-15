@@ -1,18 +1,28 @@
-# PROJECT YATAGARASU — Ver7.4 GLOBE & BRAZIL DASHBOARD
+# PROJECT YATAGARASU — Ver8.0 PHASE 1 CORE EXPERIENCE
 
-## Brazil redesign
-- 長い縦並びを廃止し、タブ型ダッシュボードへ再編
-- OVERVIEW / CURRENT SQUAD / LEGENDS / GREATEST XI / WORLD CUP / TIMELINE / CULTURE & CLUBS / RECORDS
-- 1画面あたりの情報量を整理
-- ベストXIのピッチを横向きへ90度回転
-- オープニングは維持
+## Completed in Phase 1
+- New cinematic stadium opening
+- Unified design system
+- Shared colors, spacing, panels, buttons, transitions
+- Smooth route transition between internal pages
+- Country-specific visual themes
+- Brazil, Argentina, France, Spain, Germany, Portugal, England, Japan theme foundations
+- Ver8 development hub
+- AI scout schema foundation for unique per-player reports
+- Existing World Globe and Brazil Dashboard preserved
 
-## World Globe
-- WORLD MAPを丸い地球儀へ全面変更
-- Canvasによる3D風球体
-- ドラッグ操作で回転
-- 自動回転
-- 国旗マーカーをクリックして国別ページへ移動
-- 右側リストから対象国へ回転可能
+## Important
+This is Phase 1 of Ver8.0, not the final 10,000-player database.
+The next build is Phase 2: AI Scout System, where every current Japan player receives:
+- unique title
+- unique identity sentence
+- unique strengths
+- unique weakness
+- best usage
+- risk profile
+- similar player
+- future projection
+- comparison-specific note
 
-Summary: `Release Ver7.4 Globe Brazil Dashboard`
+## Update
+Summary: `Release Ver8.0 Phase1 Core Experience`

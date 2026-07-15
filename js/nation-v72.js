@@ -4,7 +4,7 @@
   const n = window.YATA_NATIONS.find(x=>x.id===id) || window.YATA_NATIONS[0];
   const root=document.getElementById("nationPage");
   root.style.setProperty("--nation-accent",n.accent);
-  document.title=`${n.name} | PROJECT YATAGARASU`;
+  document.title=`${n.name} | PROJECT YATAGARASU`;document.body.dataset.theme=n.id;
 
   nationHero.dataset.code=n.code;
   nationHero.innerHTML=`
