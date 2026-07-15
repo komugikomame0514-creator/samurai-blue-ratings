@@ -1,3 +1,15 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WORLD MAP | PROJECT YATAGARASU</title><link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/brazil-v73.css"></head><body>
-<header class="site-header"><nav class="site-nav"><a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png"><span>PROJECT YATAGARASU <small>WORLD MAP</small></span></a><div class="nav-links"><a href="index.html">HOME</a><a class="active" href="world-map.html">WORLD MAP</a><a href="nations.html">NATIONS</a></div></nav></header>
-<main class="world-map-page"><section class="world-map-hero"><div class="kicker">GLOBAL FOOTBALL ENCYCLOPEDIA</div><h1>WORLD<br><span>MAP</span></h1><p class="page-subtitle">国を選び、その国のサッカー文化・代表・歴史へ入る。</p></section><div class="map-shell"><section class="map-stage"><div class="map-grid-lines"></div><div class="map-continent continent-americas"></div><div class="map-continent continent-europe"></div><div class="map-continent continent-africa"></div><div class="map-continent continent-asia"></div><div id="worldPins"></div></section></div></main><script src="js/world-map-v73.js"></script></body></html>
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WORLD GLOBE | PROJECT YATAGARASU</title>
+<link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/ver74.css">
+</head><body>
+<header class="site-header"><nav class="site-nav"><a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png"><span>PROJECT YATAGARASU <small>INTERACTIVE WORLD GLOBE</small></span></a><div class="nav-links"><a href="index.html">HOME</a><a class="active" href="world-map.html">WORLD GLOBE</a><a href="nations.html">NATIONS</a></div></nav></header>
+<main class="globe-page">
+<section class="globe-hero"><div class="kicker">ROTATE / EXPLORE / ENTER</div><h1>WORLD<br><span>GLOBE</span></h1><p>地球儀をドラッグして回転。国のマーカーをクリックして図鑑へ入る。</p></section>
+<div class="globe-layout">
+<section class="globe-stage"><canvas id="globeCanvas"></canvas><div class="globe-help">DRAG TO ROTATE · CLICK A MARKER</div></section>
+<aside class="globe-side"><article class="globe-card"><div class="kicker">AVAILABLE NATIONS</div><h3>国を選ぶ</h3><p>リストから地球儀をその国へ回転させることもできる。</p></article><div id="globeNationList" class="globe-nation-list"></div></aside>
+</div>
+</main>
+<script src="js/globe-v74.js"></script>
+</body></html>

@@ -1,0 +1,72 @@
+
+/* VER 7.4 — BRAZIL DASHBOARD */
+.brazil-body-v74{max-width:1640px;margin:auto;padding:54px 28px 100px}
+.brazil-overview{
+  display:grid;grid-template-columns:1.15fr .85fr;gap:16px;margin-top:-52px;position:relative;z-index:5
+}
+.overview-main,.overview-stats{border-radius:26px;padding:24px}
+.overview-main{background:linear-gradient(145deg,rgba(8,60,30,.94),rgba(4,24,17,.94));border:1px solid rgba(245,210,56,.24)}
+.overview-main h2{margin:5px 0 0;font-size:40px}.overview-main p{max-width:780px;color:#a9c0b1;line-height:1.8;margin:13px 0 0}
+.overview-pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.overview-pills span{padding:7px 10px;border:1px solid rgba(245,210,56,.22);border-radius:999px;font-size:10px;color:#ddd08e}
+.overview-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;background:rgba(3,22,15,.88);border:1px solid rgba(38,166,91,.24)}
+.overview-stat{padding:15px;border-radius:15px;background:rgba(10,51,29,.62);border:1px solid rgba(255,255,255,.07)}
+.overview-stat span{display:block;color:#789686;font-size:10px;letter-spacing:.1em}.overview-stat b{display:block;margin-top:7px;font-size:24px;color:#f2edcf}
+
+.brazil-dashboard{margin-top:48px}
+.dashboard-tabs{display:flex;gap:9px;overflow-x:auto;padding:4px 2px 15px;scrollbar-width:thin}
+.dashboard-tab{flex:0 0 auto;border:1px solid rgba(255,255,255,.10);border-radius:999px;padding:11px 16px;background:rgba(3,26,16,.70);color:#91ad9d;font-weight:800;font-size:11px}
+.dashboard-tab.active{color:#062914;background:linear-gradient(135deg,#f8df4d,#d9b921);border-color:transparent}
+.dashboard-content{min-height:620px}
+.dashboard-panel{display:none;animation:panelIn .32s ease}.dashboard-panel.active{display:block}
+@keyframes panelIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.panel-header-v74{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:15px 0 20px}
+.panel-header-v74 h2{margin:0;font-size:clamp(38px,4.8vw,70px);font-style:italic;letter-spacing:-.055em}.panel-header-v74 p{color:#81998b}
+
+.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.feature-card{min-height:210px;padding:18px;border-radius:18px;position:relative;overflow:hidden}
+.feature-card::after{content:attr(data-index);position:absolute;right:4px;bottom:-19px;font-size:82px;font-weight:950;color:rgba(245,210,56,.035)}
+.feature-card small{color:#d9c66e;letter-spacing:.12em}.feature-card h3{margin:55px 0 5px;font-size:21px}.feature-card p{margin:0;color:#829b8c;font-size:11px;line-height:1.55}
+
+.compact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}
+.compact-card{padding:15px;border-radius:15px;background:rgba(5,40,23,.65);border:1px solid rgba(255,255,255,.07)}
+.compact-card .top{display:flex;justify-content:space-between;gap:10px}.compact-card .no{color:#f5d238;font-weight:950}.compact-card .ovr{font-size:23px;font-weight:950}.compact-card h3{margin:12px 0 3px;font-size:18px}.compact-card p{margin:0;color:#7f9889;font-size:10px}
+
+.legend-grid-v74{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.legend-card-v74{min-height:250px;padding:20px;border-radius:18px;position:relative;overflow:hidden;background:linear-gradient(145deg,rgba(10,64,32,.74),rgba(3,24,16,.82));border:1px solid rgba(245,210,56,.16)}
+.legend-card-v74 .rating{position:absolute;right:17px;top:14px;font-size:40px;font-weight:950;color:#f5d238}.legend-card-v74 .title{color:#d8c567}.legend-card-v74 h3{margin:72px 0 4px;font-size:28px}.legend-card-v74 p{margin:0;color:#80998b;font-size:11px}
+
+.pitch-horizontal{
+  position:relative;aspect-ratio:16/9;min-height:520px;border:2px solid rgba(255,255,255,.36);border-radius:24px;
+  background:repeating-linear-gradient(90deg,rgba(22,132,63,.72) 0 10%,rgba(14,111,52,.74) 10% 20%);overflow:hidden
+}
+.pitch-horizontal::before{content:"";position:absolute;left:50%;top:0;bottom:0;border-left:2px solid rgba(255,255,255,.34)}
+.pitch-horizontal::after{content:"";position:absolute;left:50%;top:50%;width:160px;height:160px;border:2px solid rgba(255,255,255,.34);border-radius:50%;transform:translate(-50%,-50%)}
+.pitch-box{position:absolute;top:25%;bottom:25%;width:14%;border:2px solid rgba(255,255,255,.30)}.pitch-box.left{left:0;border-left:0}.pitch-box.right{right:0;border-right:0}
+.xi-player-v74{position:absolute;transform:translate(-50%,-50%);z-index:3;text-align:center}
+.xi-dot-v74{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:#f5d238;color:#062914;border:4px solid #173c92;font-weight:950;box-shadow:0 8px 22px rgba(0,0,0,.38)}
+.xi-name-v74{margin-top:6px;padding:4px 7px;border-radius:999px;background:rgba(1,27,14,.88);font-size:10px;white-space:nowrap}
+
+.timeline-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:11px}
+.timeline-card{padding:17px;border-left:3px solid #f5d238;border-radius:0 14px 14px 0;background:rgba(4,31,19,.64)}
+.timeline-card b{font-size:25px;color:#f5d238}.timeline-card h3{margin:5px 0;font-size:18px}.timeline-card p{margin:0;color:#80988a;line-height:1.55;font-size:11px}
+
+.cups-grid-v74{display:grid;grid-template-columns:repeat(6,1fr);gap:9px}
+.cup-v74{padding:14px;border-radius:13px;text-align:center;background:rgba(5,38,22,.64);border:1px solid rgba(255,255,255,.07)}
+.cup-v74 b{display:block;font-size:22px;color:#f5d238}.cup-v74 span{display:block;margin-top:6px;color:#809889;font-size:9px}.cup-v74.champion{background:linear-gradient(145deg,rgba(245,210,56,.23),rgba(7,54,29,.76));border-color:rgba(245,210,56,.5)}
+
+.info-columns{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.info-block{padding:20px;border-radius:18px}.info-block h3{margin:0 0 14px}.clean-list{display:grid;gap:8px}.clean-row{padding:11px 12px;border-radius:11px;background:rgba(4,29,18,.58);border:1px solid rgba(255,255,255,.06)}.clean-row b{display:block}.clean-row span{display:block;color:#769082;font-size:10px;margin-top:4px;line-height:1.5}
+
+/* INTERACTIVE GLOBE */
+.globe-page{min-height:100vh;padding-top:74px;background:radial-gradient(circle at 50% 44%,rgba(29,89,195,.25),transparent 34%),#01050d;overflow:hidden}
+.globe-hero{padding:40px 4vw 0;text-align:center}.globe-hero h1{margin:10px 0 0;font-size:clamp(58px,8vw,128px);font-style:italic;line-height:.8;letter-spacing:-.075em}.globe-hero h1 span{color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.68)}
+.globe-hero p{color:#8da0b8}
+.globe-layout{max-width:1600px;margin:auto;padding:18px 28px 70px;display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:18px;align-items:center}
+.globe-stage{position:relative;min-height:710px;border-radius:30px;overflow:hidden;border:1px solid rgba(255,255,255,.10);background:radial-gradient(circle at center,rgba(33,91,181,.20),rgba(2,8,18,.92) 68%)}
+#globeCanvas{display:block;width:100%;height:710px;cursor:grab}#globeCanvas:active{cursor:grabbing}
+.globe-help{position:absolute;left:20px;bottom:18px;padding:9px 12px;border-radius:999px;background:rgba(3,12,28,.74);border:1px solid rgba(255,255,255,.10);color:#97a9c0;font-size:10px}
+.globe-side{display:grid;gap:10px}.globe-card{padding:17px;border-radius:16px;background:rgba(6,18,39,.70);border:1px solid rgba(255,255,255,.09)}
+.globe-card h3{margin:0;font-size:20px}.globe-card p{color:#8194ad;font-size:11px;line-height:1.6}
+.globe-nation-list{display:grid;gap:7px}.globe-nation-btn{display:flex;align-items:center;justify-content:space-between;padding:10px 11px;border-radius:11px;background:rgba(8,25,52,.68);border:1px solid rgba(255,255,255,.07);color:#dce6f3}.globe-nation-btn:hover{border-color:rgba(215,185,107,.35)}.globe-nation-btn span:first-child{font-size:20px}
+
+@media(max-width:1100px){.brazil-overview,.globe-layout{grid-template-columns:1fr}.feature-grid{grid-template-columns:repeat(2,1fr)}.compact-grid,.legend-grid-v74{grid-template-columns:repeat(2,1fr)}.cups-grid-v74{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:680px){.brazil-body-v74,.globe-layout{padding-left:12px;padding-right:12px}.overview-stats,.feature-grid,.compact-grid,.legend-grid-v74,.timeline-cards,.info-columns{grid-template-columns:1fr}.cups-grid-v74{grid-template-columns:repeat(2,1fr)}.pitch-horizontal{min-height:340px}.xi-dot-v74{width:42px;height:42px;font-size:10px}.xi-name-v74{font-size:8px}#globeCanvas{height:560px}.globe-stage{min-height:560px}}
