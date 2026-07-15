@@ -3,22 +3,32 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>NATION | PROJECT YATAGARASU</title>
 <link rel="stylesheet" href="css/common.css">
-<link rel="stylesheet" href="css/nation-detail.css">
+<link rel="stylesheet" href="css/nation-detail-v72.css">
 <link rel="stylesheet" href="css/opening.css">
 </head><body>
 <header class="site-header"><nav class="site-nav">
-<a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png" alt=""><span>PROJECT YATAGARASU <small>NATIONAL TEAM ARCHIVE</small></span></a>
+<a class="brand" href="index.html"><img src="assets/logo/samurai-blue.png" alt=""><span>PROJECT YATAGARASU <small>WORLD ENCYCLOPEDIA</small></span></a>
 <div class="nav-links"><a href="index.html">HOME</a><a href="legends.html">LEGENDS</a><a class="active" href="nations.html">NATIONS</a><a href="compare.html">COMPARE</a><a href="ranking.html">RANKING</a></div>
 </nav></header>
 
-<main class="nation-detail-page">
-  <section id="nationHero" class="nation-detail-hero"></section>
-  <section class="nation-detail-content">
-    <div id="nationInfoGrid" class="nation-info-grid"></div>
-    <article id="comingPanel" class="panel coming-panel"></article>
+<main id="nationPage" class="nation-detail-page">
+  <section id="nationHero" class="nation-hero-v72"></section>
+  <section class="nation-body">
+    <div id="nationSnapshot" class="nation-snapshot"></div>
+
+    <section class="mode-directory">
+      <div class="section-head-v72">
+        <div><div class="kicker">NATION DATABASE</div><h2>EXPLORE THE NATION</h2></div>
+        <p>代表を6つの視点から深掘り</p>
+      </div>
+      <div id="modeGrid" class="mode-grid-v72"></div>
+    </section>
+
+    <section id="nationDeepGrid" class="nation-deep-grid"></section>
+    <section id="stylePanel" class="panel style-panel"></section>
   </section>
 </main>
 
 <script src="js/nations-data.js"></script>
-<script src="js/nation-v71.js"></script>
+<script src="js/nation-v72.js"></script>
 </body></html>
