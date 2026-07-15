@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10306a"/><stop offset=".55" stop-color="#07162e"/><stop offset="1" stop-color="#020711"/></linearGradient></defs>
+<rect width="1200" height="1500" fill="url(#b)"/><circle cx="600" cy="500" r="210" fill="#dbe8ff" fill-opacity=".09"/><path d="M280 1230 Q600 760 920 1230 Z" fill="#dbe8ff" fill-opacity=".08"/>
+<text x="70" y="120" fill="#d7b96b" font-family="Arial" font-size="38" font-weight="700">PROJECT YATAGARASU</text>
+<text x="70" y="1320" fill="#f8f5ec" font-family="Arial" font-size="78" font-weight="800">堂安 律</text>
+<text x="70" y="1395" fill="#9fb1cb" font-family="Arial" font-size="38">2022 QATAR / #8</text>
+<text x="70" y="1460" fill="#6f819d" font-family="Arial" font-size="26">ADD TOURNAMENT-ERA PHOTO</text></svg>

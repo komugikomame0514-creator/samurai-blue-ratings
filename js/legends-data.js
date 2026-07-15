@@ -26,7 +26,7 @@ window.YATAGARASU_ERAS = [
           79
         ],
         "id": "1998-gk20",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/1998/list/gk20.png",
+        "image": "assets/legends/1998/1998-gk20.svg",
         "review": "1998年大会の川口 能活は、スピードとフィジカルを軸にチームへ違いをもたらした。「反応型守護神」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 82と評価した。",
         "strengths": [
           "スピード",
@@ -34,7 +34,8 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 82,
-        "legacy": "CORE"
+        "legacy": "CORE",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "井原 正巳",
@@ -52,7 +53,7 @@ window.YATAGARASU_ERAS = [
           82
         ],
         "id": "1998-df04",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/1998/list/df04.png",
+        "image": "assets/legends/1998/1998-df04.svg",
         "review": "1998年大会の井原 正巳は、ディフェンスとフィジカルを軸にチームへ違いをもたらした。「統率型リベロ」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。シュートは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 83と評価した。",
         "strengths": [
           "ディフェンス",
@@ -60,7 +61,8 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 83,
-        "legacy": "CORE"
+        "legacy": "CORE",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "名波 浩",
@@ -78,7 +80,7 @@ window.YATAGARASU_ERAS = [
           68
         ],
         "id": "1998-mf10",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/1998/list/mf10.png",
+        "image": "assets/legends/1998/1998-mf10.svg",
         "review": "1998年大会の名波 浩は、パスとドリブルを軸にチームへ違いをもたらした。「左足の司令塔」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 82と評価した。",
         "strengths": [
           "パス",
@@ -86,7 +88,8 @@ window.YATAGARASU_ERAS = [
           "シュート"
         ],
         "impact": 83,
-        "legacy": "CORE"
+        "legacy": "CORE",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "中田 英寿",
@@ -104,7 +107,7 @@ window.YATAGARASU_ERAS = [
           82
         ],
         "id": "1998-mf08",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/1998/list/mf08.png",
+        "image": "assets/legends/1998/1998-mf08.svg",
         "review": "1998年大会の中田 英寿は、パスとドリブルを軸にチームへ違いをもたらした。「ワールドクラスの創造者」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 86と評価した。",
         "strengths": [
           "パス",
@@ -112,7 +115,8 @@ window.YATAGARASU_ERAS = [
           "スピード"
         ],
         "impact": 86,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "小野 伸二",
@@ -130,7 +134,7 @@ window.YATAGARASU_ERAS = [
           66
         ],
         "id": "1998-mf11",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/1998/list/mf11.png",
+        "image": "assets/legends/1998/1998-mf11.svg",
         "review": "1998年大会の小野 伸二は、パスとドリブルを軸にチームへ違いをもたらした。「天才型プレーメーカー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 80と評価した。",
         "strengths": [
           "パス",
@@ -138,7 +142,8 @@ window.YATAGARASU_ERAS = [
           "スピード"
         ],
         "impact": 81,
-        "legacy": "CORE"
+        "legacy": "CORE",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "中山 雅史",
@@ -156,7 +161,7 @@ window.YATAGARASU_ERAS = [
           83
         ],
         "id": "1998-fw09",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/1998/list/fw09.png",
+        "image": "assets/legends/1998/1998-fw09.svg",
         "review": "1998年大会の中山 雅史は、シュートとフィジカルを軸にチームへ違いをもたらした。「闘争型フィニッシャー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 81と評価した。",
         "strengths": [
           "シュート",
@@ -164,10 +169,11 @@ window.YATAGARASU_ERAS = [
           "スピード"
         ],
         "impact": 81,
-        "legacy": "CORE"
+        "legacy": "CORE",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       }
     ],
-    "heroImage": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/1998/kv_pc.jpg",
+    "heroImage": "assets/eras/1998-team.svg",
     "matches": [
       {
         "date": "1998.06.14",
@@ -187,7 +193,8 @@ window.YATAGARASU_ERAS = [
         "score": "1–2",
         "stage": "グループ第3戦"
       }
-    ]
+    ],
+    "heroFallback": "assets/ui/yatagarasu.png"
   },
   {
     "year": 2002,
@@ -216,7 +223,7 @@ window.YATAGARASU_ERAS = [
           83
         ],
         "id": "2002-gk12",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2002/list/gk12.png",
+        "image": "assets/legends/2002/2002-gk12.svg",
         "review": "2002年大会の楢﨑 正剛は、フィジカルとスピードを軸にチームへ違いをもたらした。「安定型ゴールキーパー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 84と評価した。",
         "strengths": [
           "フィジカル",
@@ -224,7 +231,8 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 83,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "宮本 恒靖",
@@ -242,7 +250,7 @@ window.YATAGARASU_ERAS = [
           76
         ],
         "id": "2002-df17",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2002/list/df17.png",
+        "image": "assets/legends/2002/2002-df17.svg",
         "review": "2002年大会の宮本 恒靖は、ディフェンスとパスを軸にチームへ違いをもたらした。「知性派キャプテン」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。シュートは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 83と評価した。",
         "strengths": [
           "ディフェンス",
@@ -250,7 +258,8 @@ window.YATAGARASU_ERAS = [
           "スピード"
         ],
         "impact": 83,
-        "legacy": "CORE"
+        "legacy": "CORE",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "稲本 潤一",
@@ -268,7 +277,7 @@ window.YATAGARASU_ERAS = [
           86
         ],
         "id": "2002-mf05",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2002/list/mf05.png",
+        "image": "assets/legends/2002/2002-mf05.svg",
         "review": "2002年大会の稲本 潤一は、フィジカルとシュートを軸にチームへ違いをもたらした。「攻撃型ボランチ」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 85と評価した。",
         "strengths": [
           "フィジカル",
@@ -276,7 +285,8 @@ window.YATAGARASU_ERAS = [
           "スピード"
         ],
         "impact": 85,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "中田 英寿",
@@ -294,7 +304,7 @@ window.YATAGARASU_ERAS = [
           84
         ],
         "id": "2002-mf07",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2002/list/mf07.png",
+        "image": "assets/legends/2002/2002-mf07.svg",
         "review": "2002年大会の中田 英寿は、パスとドリブルを軸にチームへ違いをもたらした。「世界基準の司令塔」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 88と評価した。",
         "strengths": [
           "パス",
@@ -302,7 +312,8 @@ window.YATAGARASU_ERAS = [
           "スピード"
         ],
         "impact": 88,
-        "legacy": "ICON"
+        "legacy": "ICON",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "小野 伸二",
@@ -320,7 +331,7 @@ window.YATAGARASU_ERAS = [
           72
         ],
         "id": "2002-mf18",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2002/list/mf18.png",
+        "image": "assets/legends/2002/2002-mf18.svg",
         "review": "2002年大会の小野 伸二は、パスとドリブルを軸にチームへ違いをもたらした。「エレガント・クリエイター」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 86と評価した。",
         "strengths": [
           "パス",
@@ -328,7 +339,8 @@ window.YATAGARASU_ERAS = [
           "シュート"
         ],
         "impact": 86,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "鈴木 隆行",
@@ -346,7 +358,7 @@ window.YATAGARASU_ERAS = [
           88
         ],
         "id": "2002-fw11",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2002/list/fw11.png",
+        "image": "assets/legends/2002/2002-fw11.svg",
         "review": "2002年大会の鈴木 隆行は、フィジカルとシュートを軸にチームへ違いをもたらした。「献身型ターゲット」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 82と評価した。",
         "strengths": [
           "フィジカル",
@@ -354,10 +366,11 @@ window.YATAGARASU_ERAS = [
           "スピード"
         ],
         "impact": 83,
-        "legacy": "CORE"
+        "legacy": "CORE",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       }
     ],
-    "heroImage": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2002/kv_pc.jpg",
+    "heroImage": "assets/eras/2002-team.svg",
     "matches": [
       {
         "date": "2002.06.04",
@@ -383,7 +396,8 @@ window.YATAGARASU_ERAS = [
         "score": "0–1",
         "stage": "ラウンド16"
       }
-    ]
+    ],
+    "heroFallback": "assets/ui/yatagarasu.png"
   },
   {
     "year": 2010,
@@ -412,7 +426,7 @@ window.YATAGARASU_ERAS = [
           85
         ],
         "id": "2010-gk21",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2010/list/gk21.png",
+        "image": "assets/legends/2010/2010-gk21.svg",
         "review": "2010年大会の川島 永嗣は、フィジカルとスピードを軸にチームへ違いをもたらした。「闘志型ショットストッパー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 84と評価した。",
         "strengths": [
           "フィジカル",
@@ -420,7 +434,8 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 84,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "長友 佑都",
@@ -438,7 +453,7 @@ window.YATAGARASU_ERAS = [
           88
         ],
         "id": "2010-df05",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2010/list/df05.png",
+        "image": "assets/legends/2010/2010-df05.svg",
         "review": "2010年大会の長友 佑都は、スピードとフィジカルを軸にチームへ違いをもたらした。「無尽蔵サイドバック」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。シュートは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 84と評価した。",
         "strengths": [
           "スピード",
@@ -446,7 +461,8 @@ window.YATAGARASU_ERAS = [
           "ディフェンス"
         ],
         "impact": 85,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "中澤 佑二",
@@ -464,7 +480,7 @@ window.YATAGARASU_ERAS = [
           90
         ],
         "id": "2010-df22",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2010/list/df22.png",
+        "image": "assets/legends/2010/2010-df22.svg",
         "review": "2010年大会の中澤 佑二は、フィジカルとディフェンスを軸にチームへ違いをもたらした。「空中戦の要塞」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。シュートは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 84と評価した。",
         "strengths": [
           "フィジカル",
@@ -472,7 +488,8 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 85,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "遠藤 保仁",
@@ -490,7 +507,7 @@ window.YATAGARASU_ERAS = [
           73
         ],
         "id": "2010-mf07",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2010/list/mf07.png",
+        "image": "assets/legends/2010/2010-mf07.svg",
         "review": "2010年大会の遠藤 保仁は、パスとドリブルを軸にチームへ違いをもたらした。「テンポメーカー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。スピードは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 87と評価した。",
         "strengths": [
           "パス",
@@ -498,7 +515,8 @@ window.YATAGARASU_ERAS = [
           "シュート"
         ],
         "impact": 87,
-        "legacy": "ICON"
+        "legacy": "ICON",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "本田 圭佑",
@@ -516,7 +534,7 @@ window.YATAGARASU_ERAS = [
           87
         ],
         "id": "2010-mf18",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2010/list/mf18.png",
+        "image": "assets/legends/2010/2010-mf18.svg",
         "review": "2010年大会の本田 圭佑は、シュートとパスを軸にチームへ違いをもたらした。「大舞台のエース」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 88と評価した。",
         "strengths": [
           "シュート",
@@ -524,7 +542,8 @@ window.YATAGARASU_ERAS = [
           "フィジカル"
         ],
         "impact": 88,
-        "legacy": "ICON"
+        "legacy": "ICON",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "松井 大輔",
@@ -542,7 +561,7 @@ window.YATAGARASU_ERAS = [
           75
         ],
         "id": "2010-mf08",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2010/list/mf08.png",
+        "image": "assets/legends/2010/2010-mf08.svg",
         "review": "2010年大会の松井 大輔は、ドリブルとスピードを軸にチームへ違いをもたらした。「変化を生むドリブラー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 84と評価した。",
         "strengths": [
           "ドリブル",
@@ -550,10 +569,11 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 84,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       }
     ],
-    "heroImage": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2010/kv_pc.jpg",
+    "heroImage": "assets/eras/2010-team.svg",
     "matches": [
       {
         "date": "2010.06.14",
@@ -579,7 +599,8 @@ window.YATAGARASU_ERAS = [
         "score": "0–0（PK 3–5）",
         "stage": "ラウンド16"
       }
-    ]
+    ],
+    "heroFallback": "assets/ui/yatagarasu.png"
   },
   {
     "year": 2018,
@@ -608,7 +629,7 @@ window.YATAGARASU_ERAS = [
           81
         ],
         "id": "2018-gk01",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2018/list/gk01.png",
+        "image": "assets/legends/2018/2018-gk01.svg",
         "review": "2018年大会の川島 永嗣は、フィジカルとスピードを軸にチームへ違いをもたらした。「経験型ゴールキーパー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 82と評価した。",
         "strengths": [
           "フィジカル",
@@ -616,7 +637,8 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 82,
-        "legacy": "CORE"
+        "legacy": "CORE",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "長友 佑都",
@@ -634,7 +656,7 @@ window.YATAGARASU_ERAS = [
           85
         ],
         "id": "2018-fp05",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2018/list/fp05.png",
+        "image": "assets/legends/2018/2018-fp05.svg",
         "review": "2018年大会の長友 佑都は、スピードとフィジカルを軸にチームへ違いをもたらした。「攻撃参加型サイドバック」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。シュートは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 84と評価した。",
         "strengths": [
           "スピード",
@@ -642,7 +664,8 @@ window.YATAGARASU_ERAS = [
           "ドリブル"
         ],
         "impact": 84,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "吉田 麻也",
@@ -660,7 +683,7 @@ window.YATAGARASU_ERAS = [
           87
         ],
         "id": "2018-fp22",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2018/list/fp22.png",
+        "image": "assets/legends/2018/2018-fp22.svg",
         "review": "2018年大会の吉田 麻也は、ディフェンスとフィジカルを軸にチームへ違いをもたらした。「統率型センターバック」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。シュートは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 85と評価した。",
         "strengths": [
           "ディフェンス",
@@ -668,7 +691,8 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 85,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "柴崎 岳",
@@ -686,7 +710,7 @@ window.YATAGARASU_ERAS = [
           72
         ],
         "id": "2018-fp07",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2018/list/fp07.png",
+        "image": "assets/legends/2018/2018-fp07.svg",
         "review": "2018年大会の柴崎 岳は、パスとドリブルを軸にチームへ違いをもたらした。「長短のパスマスター」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 84と評価した。",
         "strengths": [
           "パス",
@@ -694,7 +718,8 @@ window.YATAGARASU_ERAS = [
           "シュート"
         ],
         "impact": 85,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "香川 真司",
@@ -712,7 +737,7 @@ window.YATAGARASU_ERAS = [
           72
         ],
         "id": "2018-fp10",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2018/list/fp10.png",
+        "image": "assets/legends/2018/2018-fp10.svg",
         "review": "2018年大会の香川 真司は、ドリブルとパスを軸にチームへ違いをもたらした。「ライン間の創造者」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 86と評価した。",
         "strengths": [
           "ドリブル",
@@ -720,7 +745,8 @@ window.YATAGARASU_ERAS = [
           "スピード"
         ],
         "impact": 86,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "乾 貴士",
@@ -738,7 +764,7 @@ window.YATAGARASU_ERAS = [
           73
         ],
         "id": "2018-fp14",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2018/list/fp14.png",
+        "image": "assets/legends/2018/2018-fp14.svg",
         "review": "2018年大会の乾 貴士は、ドリブルとスピードを軸にチームへ違いをもたらした。「カットイン・アタッカー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 86と評価した。",
         "strengths": [
           "ドリブル",
@@ -746,10 +772,11 @@ window.YATAGARASU_ERAS = [
           "シュート"
         ],
         "impact": 86,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       }
     ],
-    "heroImage": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2018/kv_pc.jpg",
+    "heroImage": "assets/eras/2018-team.svg",
     "matches": [
       {
         "date": "2018.06.19",
@@ -775,7 +802,8 @@ window.YATAGARASU_ERAS = [
         "score": "2–3",
         "stage": "ラウンド16"
       }
-    ]
+    ],
+    "heroFallback": "assets/ui/yatagarasu.png"
   },
   {
     "year": 2022,
@@ -804,7 +832,7 @@ window.YATAGARASU_ERAS = [
           83
         ],
         "id": "2022-gk12",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2022/list/gk12.png",
+        "image": "assets/legends/2022/2022-gk12.svg",
         "review": "2022年大会の権田 修一は、フィジカルとスピードを軸にチームへ違いをもたらした。「集中型ショットストッパー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 84と評価した。",
         "strengths": [
           "フィジカル",
@@ -812,7 +840,8 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 83,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "吉田 麻也",
@@ -830,7 +859,7 @@ window.YATAGARASU_ERAS = [
           84
         ],
         "id": "2022-fp22",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2022/list/fp22.png",
+        "image": "assets/legends/2022/2022-fp22.svg",
         "review": "2022年大会の吉田 麻也は、ディフェンスとフィジカルを軸にチームへ違いをもたらした。「経験豊富な統率者」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。シュートは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 84と評価した。",
         "strengths": [
           "ディフェンス",
@@ -838,7 +867,8 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 84,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "冨安 健洋",
@@ -856,7 +886,7 @@ window.YATAGARASU_ERAS = [
           88
         ],
         "id": "2022-fp16",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2022/list/fp16.png",
+        "image": "assets/legends/2022/2022-fp16.svg",
         "review": "2022年大会の冨安 健洋は、ディフェンスとフィジカルを軸にチームへ違いをもたらした。「万能型ディフェンダー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。シュートは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 87と評価した。",
         "strengths": [
           "ディフェンス",
@@ -864,7 +894,8 @@ window.YATAGARASU_ERAS = [
           "スピード"
         ],
         "impact": 87,
-        "legacy": "ICON"
+        "legacy": "ICON",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "遠藤 航",
@@ -882,7 +913,7 @@ window.YATAGARASU_ERAS = [
           91
         ],
         "id": "2022-fp06",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2022/list/fp06.png",
+        "image": "assets/legends/2022/2022-fp06.svg",
         "review": "2022年大会の遠藤 航は、ディフェンスとフィジカルを軸にチームへ違いをもたらした。「デュエルマスター」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。シュートは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 87と評価した。",
         "strengths": [
           "ディフェンス",
@@ -890,7 +921,8 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 87,
-        "legacy": "ICON"
+        "legacy": "ICON",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "堂安 律",
@@ -908,7 +940,7 @@ window.YATAGARASU_ERAS = [
           78
         ],
         "id": "2022-fp08",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2022/list/fp08.png",
+        "image": "assets/legends/2022/2022-fp08.svg",
         "review": "2022年大会の堂安 律は、ドリブルとシュートを軸にチームへ違いをもたらした。「勝負強いインサイドFW」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 85と評価した。",
         "strengths": [
           "ドリブル",
@@ -916,7 +948,8 @@ window.YATAGARASU_ERAS = [
           "スピード"
         ],
         "impact": 85,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "三笘 薫",
@@ -934,7 +967,7 @@ window.YATAGARASU_ERAS = [
           73
         ],
         "id": "2022-fp09",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2022/list/fp09.png",
+        "image": "assets/legends/2022/2022-fp09.svg",
         "review": "2022年大会の三笘 薫は、ドリブルとスピードを軸にチームへ違いをもたらした。「突破型ウインガー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 87と評価した。",
         "strengths": [
           "ドリブル",
@@ -942,7 +975,8 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 88,
-        "legacy": "ICON"
+        "legacy": "ICON",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       },
       {
         "name": "久保 建英",
@@ -960,7 +994,7 @@ window.YATAGARASU_ERAS = [
           69
         ],
         "id": "2022-fp11",
-        "image": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2022/list/fp11.png",
+        "image": "assets/legends/2022/2022-fp11.svg",
         "review": "2022年大会の久保 建英は、ドリブルとスピードを軸にチームへ違いをもたらした。「創造型アタッカー」という役割が示す通り、当時の代表で求められた仕事と本人の個性が噛み合っている。ディフェンスは突出した武器ではないものの、周囲との連係と試合展開への適応で補完。大会時点の完成度と国際舞台での影響を総合し、OVR 84と評価した。",
         "strengths": [
           "ドリブル",
@@ -968,10 +1002,11 @@ window.YATAGARASU_ERAS = [
           "パス"
         ],
         "impact": 85,
-        "legacy": "HERO"
+        "legacy": "HERO",
+        "fallbackImage": "assets/ui/yatagarasu.png"
       }
     ],
-    "heroImage": "https://www.jfa.jp/samuraiblue/worldcup_history/assets/images/2022/kv_pc.jpg",
+    "heroImage": "assets/eras/2022-team.svg",
     "matches": [
       {
         "date": "2022.11.23",
@@ -997,6 +1032,7 @@ window.YATAGARASU_ERAS = [
         "score": "1–1（PK 1–3）",
         "stage": "ラウンド16"
       }
-    ]
+    ],
+    "heroFallback": "assets/ui/yatagarasu.png"
   }
 ];

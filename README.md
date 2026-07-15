@@ -1,13 +1,10 @@
-# PROJECT YATAGARASU — Ver6.4 LEGENDS DEEP DIVE
+# PROJECT YATAGARASU — Ver7.0 FOOTBALL ENCYCLOPEDIA FOUNDATION
 
-- 歴代カードにJFA公式の大会当時写真を表示
-- 大会ヒーローに当時のチーム写真
-- カードから歴代選手詳細ページへ
-- 大会時OVR、6能力、レーダー
-- 大会時AI総評、影響度、レガシークラス
-- 大会ストーリー、戦績、試合結果
-- JFA公式資料へのリンク
+- 歴代画像をローカル管理するフォルダ構成へ変更
+- 外部画像URLへの依存を廃止
+- 写真未登録でもSVGプレースホルダーで表示崩れなし
+- 必要写真一覧をmanifest.jsonへ収録
+- 全ページ共通の八咫烏オープニングを追加
+- オープニングはセッション中1回。URL末尾に `?intro=1` で再表示
 
-写真はJFA公式ページの画像URLを参照表示し、画像自体はZIPへ再配布していません。
-
-Summary: `Release Ver6.4 Legends Deep Dive`
+Summary: `Release Ver7.0 Encyclopedia Foundation`

@@ -1,0 +1,14 @@
+
+.yata-opening{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;overflow:hidden;background:radial-gradient(circle at center,rgba(35,89,205,.22),transparent 38%),#00030a}
+.yata-opening.is-hidden{animation:yataClose .95s ease forwards}
+.yata-opening-grid{position:absolute;inset:-20%;background-image:linear-gradient(rgba(91,145,255,.13) 1px,transparent 1px),linear-gradient(90deg,rgba(91,145,255,.13) 1px,transparent 1px);background-size:74px 74px;transform:perspective(760px) rotateX(67deg) translateY(34%) scale(1.55);opacity:.23}
+.yata-opening-glow{position:absolute;width:62vmin;height:62vmin;border-radius:50%;border:1px solid rgba(106,164,255,.20);box-shadow:0 0 90px rgba(42,102,232,.22),inset 0 0 90px rgba(42,102,232,.10);animation:yataOrbit 8s linear infinite}
+.yata-opening-content{position:relative;z-index:3;text-align:center;width:min(92vw,980px)}
+.yata-opening-logo{width:min(36vw,320px);opacity:0;filter:drop-shadow(0 0 44px rgba(46,111,255,.78));animation:yataLogoIn 3.4s cubic-bezier(.2,.72,.2,1) forwards}
+.yata-opening-title{margin-top:20px;font-size:clamp(42px,6.8vw,98px);line-height:.88;font-style:italic;font-weight:950;letter-spacing:-.05em;opacity:0;animation:yataTextIn .9s 2.05s forwards}
+.yata-opening-title span{display:block;color:transparent;-webkit-text-stroke:1px rgba(248,245,236,.72)}
+.yata-opening-sub{margin-top:18px;color:#9bbcff;font-size:11px;letter-spacing:.34em;opacity:0;animation:yataTextIn .8s 2.72s forwards}
+.yata-opening-button{margin-top:38px;opacity:0;animation:yataTextIn .8s 3.2s forwards}
+.yata-opening-button button{border:1px solid rgba(215,185,107,.46);border-radius:999px;padding:15px 30px;color:#f8f5ec;background:rgba(5,14,31,.65);font-weight:950;letter-spacing:.19em;animation:yataPulse 2s infinite}
+@keyframes yataLogoIn{0%{opacity:0;transform:scale(.62) rotate(-4deg)}24%{opacity:1;transform:scale(.96)}72%{opacity:1;transform:scale(1.05)}100%{opacity:1;transform:scale(1)}}
+@keyframes yataTextIn{to{opacity:1}}@keyframes yataPulse{0%,100%{box-shadow:0 0 0 0 rgba(215,185,107,.24)}50%{box-shadow:0 0 0 15px rgba(215,185,107,0)}}@keyframes yataOrbit{to{transform:rotate(360deg)}}@keyframes yataClose{to{opacity:0;visibility:hidden;pointer-events:none;transform:scale(1.05)}}

@@ -1,0 +1,1 @@
+(()=>{const r=document.getElementById("yataOpening");if(!r)return;const k="yata-opening-seen-v7",f=new URLSearchParams(location.search).get("intro")==="1";if(sessionStorage.getItem(k)&&!f){r.remove();return}const c=()=>{sessionStorage.setItem(k,"1");r.classList.add("is-hidden");setTimeout(()=>r.remove(),1000)};document.getElementById("yataEnter")?.addEventListener("click",c)})();

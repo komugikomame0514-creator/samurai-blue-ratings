@@ -1,0 +1,194 @@
+{
+  "eras": [
+    {
+      "year": 1998,
+      "team_jpg": "assets/eras/1998-team.jpg",
+      "current_placeholder": "assets/eras/1998-team.svg",
+      "players": [
+        {
+          "name": "川口 能活",
+          "path_jpg": "assets/legends/1998/1998-gk20.jpg",
+          "current_placeholder": "assets/legends/1998/1998-gk20.svg"
+        },
+        {
+          "name": "井原 正巳",
+          "path_jpg": "assets/legends/1998/1998-df04.jpg",
+          "current_placeholder": "assets/legends/1998/1998-df04.svg"
+        },
+        {
+          "name": "名波 浩",
+          "path_jpg": "assets/legends/1998/1998-mf10.jpg",
+          "current_placeholder": "assets/legends/1998/1998-mf10.svg"
+        },
+        {
+          "name": "中田 英寿",
+          "path_jpg": "assets/legends/1998/1998-mf08.jpg",
+          "current_placeholder": "assets/legends/1998/1998-mf08.svg"
+        },
+        {
+          "name": "小野 伸二",
+          "path_jpg": "assets/legends/1998/1998-mf11.jpg",
+          "current_placeholder": "assets/legends/1998/1998-mf11.svg"
+        },
+        {
+          "name": "中山 雅史",
+          "path_jpg": "assets/legends/1998/1998-fw09.jpg",
+          "current_placeholder": "assets/legends/1998/1998-fw09.svg"
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "team_jpg": "assets/eras/2002-team.jpg",
+      "current_placeholder": "assets/eras/2002-team.svg",
+      "players": [
+        {
+          "name": "楢﨑 正剛",
+          "path_jpg": "assets/legends/2002/2002-gk12.jpg",
+          "current_placeholder": "assets/legends/2002/2002-gk12.svg"
+        },
+        {
+          "name": "宮本 恒靖",
+          "path_jpg": "assets/legends/2002/2002-df17.jpg",
+          "current_placeholder": "assets/legends/2002/2002-df17.svg"
+        },
+        {
+          "name": "稲本 潤一",
+          "path_jpg": "assets/legends/2002/2002-mf05.jpg",
+          "current_placeholder": "assets/legends/2002/2002-mf05.svg"
+        },
+        {
+          "name": "中田 英寿",
+          "path_jpg": "assets/legends/2002/2002-mf07.jpg",
+          "current_placeholder": "assets/legends/2002/2002-mf07.svg"
+        },
+        {
+          "name": "小野 伸二",
+          "path_jpg": "assets/legends/2002/2002-mf18.jpg",
+          "current_placeholder": "assets/legends/2002/2002-mf18.svg"
+        },
+        {
+          "name": "鈴木 隆行",
+          "path_jpg": "assets/legends/2002/2002-fw11.jpg",
+          "current_placeholder": "assets/legends/2002/2002-fw11.svg"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "team_jpg": "assets/eras/2010-team.jpg",
+      "current_placeholder": "assets/eras/2010-team.svg",
+      "players": [
+        {
+          "name": "川島 永嗣",
+          "path_jpg": "assets/legends/2010/2010-gk21.jpg",
+          "current_placeholder": "assets/legends/2010/2010-gk21.svg"
+        },
+        {
+          "name": "長友 佑都",
+          "path_jpg": "assets/legends/2010/2010-df05.jpg",
+          "current_placeholder": "assets/legends/2010/2010-df05.svg"
+        },
+        {
+          "name": "中澤 佑二",
+          "path_jpg": "assets/legends/2010/2010-df22.jpg",
+          "current_placeholder": "assets/legends/2010/2010-df22.svg"
+        },
+        {
+          "name": "遠藤 保仁",
+          "path_jpg": "assets/legends/2010/2010-mf07.jpg",
+          "current_placeholder": "assets/legends/2010/2010-mf07.svg"
+        },
+        {
+          "name": "本田 圭佑",
+          "path_jpg": "assets/legends/2010/2010-mf18.jpg",
+          "current_placeholder": "assets/legends/2010/2010-mf18.svg"
+        },
+        {
+          "name": "松井 大輔",
+          "path_jpg": "assets/legends/2010/2010-mf08.jpg",
+          "current_placeholder": "assets/legends/2010/2010-mf08.svg"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "team_jpg": "assets/eras/2018-team.jpg",
+      "current_placeholder": "assets/eras/2018-team.svg",
+      "players": [
+        {
+          "name": "川島 永嗣",
+          "path_jpg": "assets/legends/2018/2018-gk01.jpg",
+          "current_placeholder": "assets/legends/2018/2018-gk01.svg"
+        },
+        {
+          "name": "長友 佑都",
+          "path_jpg": "assets/legends/2018/2018-fp05.jpg",
+          "current_placeholder": "assets/legends/2018/2018-fp05.svg"
+        },
+        {
+          "name": "吉田 麻也",
+          "path_jpg": "assets/legends/2018/2018-fp22.jpg",
+          "current_placeholder": "assets/legends/2018/2018-fp22.svg"
+        },
+        {
+          "name": "柴崎 岳",
+          "path_jpg": "assets/legends/2018/2018-fp07.jpg",
+          "current_placeholder": "assets/legends/2018/2018-fp07.svg"
+        },
+        {
+          "name": "香川 真司",
+          "path_jpg": "assets/legends/2018/2018-fp10.jpg",
+          "current_placeholder": "assets/legends/2018/2018-fp10.svg"
+        },
+        {
+          "name": "乾 貴士",
+          "path_jpg": "assets/legends/2018/2018-fp14.jpg",
+          "current_placeholder": "assets/legends/2018/2018-fp14.svg"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "team_jpg": "assets/eras/2022-team.jpg",
+      "current_placeholder": "assets/eras/2022-team.svg",
+      "players": [
+        {
+          "name": "権田 修一",
+          "path_jpg": "assets/legends/2022/2022-gk12.jpg",
+          "current_placeholder": "assets/legends/2022/2022-gk12.svg"
+        },
+        {
+          "name": "吉田 麻也",
+          "path_jpg": "assets/legends/2022/2022-fp22.jpg",
+          "current_placeholder": "assets/legends/2022/2022-fp22.svg"
+        },
+        {
+          "name": "冨安 健洋",
+          "path_jpg": "assets/legends/2022/2022-fp16.jpg",
+          "current_placeholder": "assets/legends/2022/2022-fp16.svg"
+        },
+        {
+          "name": "遠藤 航",
+          "path_jpg": "assets/legends/2022/2022-fp06.jpg",
+          "current_placeholder": "assets/legends/2022/2022-fp06.svg"
+        },
+        {
+          "name": "堂安 律",
+          "path_jpg": "assets/legends/2022/2022-fp08.jpg",
+          "current_placeholder": "assets/legends/2022/2022-fp08.svg"
+        },
+        {
+          "name": "三笘 薫",
+          "path_jpg": "assets/legends/2022/2022-fp09.jpg",
+          "current_placeholder": "assets/legends/2022/2022-fp09.svg"
+        },
+        {
+          "name": "久保 建英",
+          "path_jpg": "assets/legends/2022/2022-fp11.jpg",
+          "current_placeholder": "assets/legends/2022/2022-fp11.svg"
+        }
+      ]
+    }
+  ]
+}
