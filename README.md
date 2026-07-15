@@ -1,12 +1,19 @@
-# PROJECT YATAGARASU — Ver7.2 WORLD ENCYCLOPEDIA
+# PROJECT YATAGARASU — Ver7.3 BRAZIL KINGDOM & WORLD MAP
 
-## Nation pages
-- 8か国すべてを専用ページ化
-- 国旗、専用カラー、PROJECT YATAGARASU独自シンボル
-- 歴史的実績、タイトル、基本フォーメーション
-- CURRENT SQUAD / LEGENDS / WORLD CUP HISTORY / BEST XI / TACTICAL IDENTITY / ERAS
-- 現代の代表格、歴代レジェンド、大会史、時代変化
-- TECHNIQUE / SPEED / PHYSICAL / TACTICS / DEPTH / MENTAL の国別DNA
-- 日本、ブラジル、アルゼンチンをDEEP DIVE表示
+## WORLD MAP
+- 世界地図型ナビゲーションを追加
+- 国旗ピンから国別ページへ移動
+- ブラジル、日本、アルゼンチン、欧州主要国を配置
 
-Summary: `Release Ver7.2 World Encyclopedia`
+## BRAZIL DATABASE
+- 緑・黄・青の完全ブラジル専用テーマ
+- ブラジル専用オープニング
+- 16個のEXPLOREモード
+- 2026代表26名
+- レジェンド9名
+- 歴代ベストXIのピッチ表示
+- 1930〜2026 W杯アーカイブ
+- 王国タイムライン
+- ライバル、歴代監督、育成、国内クラブ、記録
+
+Summary: `Release Ver7.3 Brazil Kingdom World Map`
