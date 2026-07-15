@@ -141,3 +141,6 @@
   .mode-grid{grid-template-columns:1fr}.mode-card.big{grid-column:auto}
   .future-strip{grid-template-columns:1fr 1fr}
 }
+
+.future-item{text-decoration:none;transition:.24s}
+.future-item:hover{transform:translateY(-5px);border-color:rgba(215,185,107,.38);background:rgba(11,31,61,.72)}

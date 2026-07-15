@@ -1,0 +1,121 @@
+
+.nation-detail-page{
+  min-height:100vh;
+  padding-top:74px;
+}
+.nation-detail-hero{
+  min-height:560px;
+  position:relative;
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  align-items:center;
+  gap:28px;
+  padding:54px 4vw;
+  overflow:hidden;
+}
+.nation-detail-hero::before{
+  content:attr(data-code);
+  position:absolute;
+  right:-20px;
+  top:35px;
+  font-size:230px;
+  font-weight:950;
+  letter-spacing:-.10em;
+  color:rgba(255,255,255,.028);
+}
+.nation-detail-copy{position:relative;z-index:2}
+.nation-detail-copy .flag{font-size:84px}
+.nation-detail-copy h1{
+  margin:14px 0 0;
+  font-size:clamp(64px,8vw,128px);
+  line-height:.8;
+  font-style:italic;
+  letter-spacing:-.075em;
+}
+.nation-detail-copy h1 span{
+  display:block;
+  color:transparent;
+  -webkit-text-stroke:1px rgba(248,245,236,.72);
+}
+.nation-detail-copy p{
+  max-width:700px;
+  margin-top:24px;
+  color:#cbd5e4;
+  line-height:1.9;
+}
+.nation-detail-visual{
+  position:relative;
+  min-height:430px;
+  display:grid;
+  place-items:center;
+}
+.nation-emblem{
+  width:330px;
+  aspect-ratio:1;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  font-size:120px;
+  border:1px solid rgba(215,185,107,.28);
+  background:radial-gradient(circle,rgba(46,111,255,.16),transparent 66%);
+  box-shadow:0 0 90px rgba(46,111,255,.12);
+}
+.nation-detail-content{
+  max-width:1600px;
+  margin:auto;
+  padding:40px 28px 80px;
+}
+.nation-info-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+}
+.nation-info-card{
+  padding:18px;
+  border-radius:17px;
+}
+.nation-info-card span{
+  display:block;
+  color:#8192aa;
+  font-size:10px;
+  letter-spacing:.11em;
+}
+.nation-info-card b{
+  display:block;
+  margin-top:8px;
+  font-size:22px;
+}
+.coming-panel{
+  margin-top:22px;
+  padding:28px;
+  border-radius:22px;
+  position:relative;
+  overflow:hidden;
+}
+.coming-panel::after{
+  content:"COMING SOON";
+  position:absolute;
+  right:-15px;
+  bottom:-14px;
+  font-size:76px;
+  font-weight:950;
+  color:rgba(255,255,255,.025);
+}
+.coming-panel h2{margin:0;font-size:34px}
+.coming-panel p{max-width:850px;color:#cbd5e4;line-height:1.8}
+.coming-list{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin-top:18px;
+}
+.coming-item{
+  padding:14px;
+  border:1px solid var(--line);
+  border-radius:13px;
+  background:rgba(6,18,40,.60);
+}
+@media(max-width:900px){
+  .nation-detail-hero{grid-template-columns:1fr}
+  .nation-info-grid,.coming-list{grid-template-columns:1fr}
+}

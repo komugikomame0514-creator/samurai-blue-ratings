@@ -1,0 +1,280 @@
+
+.nations-page{
+  min-height:100vh;
+  padding-top:74px;
+  overflow:hidden;
+}
+.nations-hero{
+  min-height:calc(100vh - 74px);
+  position:relative;
+  display:grid;
+  grid-template-columns:minmax(0,1.08fr) minmax(460px,.92fr);
+  align-items:center;
+  gap:30px;
+  padding:60px 4vw;
+}
+.nations-hero::before{
+  content:"WORLD";
+  position:absolute;
+  left:1vw;
+  top:9vh;
+  font-size:clamp(140px,20vw,340px);
+  line-height:.72;
+  font-weight:950;
+  font-style:italic;
+  letter-spacing:-.09em;
+  color:rgba(255,255,255,.018);
+}
+.world-orbit{
+  position:relative;
+  min-height:620px;
+  display:grid;
+  place-items:center;
+}
+.world-core{
+  width:min(74%,520px);
+  aspect-ratio:1;
+  border-radius:50%;
+  position:relative;
+  display:grid;
+  place-items:center;
+  border:1px solid rgba(215,185,107,.28);
+  box-shadow:
+    0 0 120px rgba(46,111,255,.16),
+    inset 0 0 90px rgba(46,111,255,.10);
+}
+.world-core::before,
+.world-core::after{
+  content:"";
+  position:absolute;
+  border-radius:50%;
+  border:1px solid rgba(112,160,255,.16);
+}
+.world-core::before{inset:12%;animation:spin 18s linear infinite}
+.world-core::after{inset:25%;animation:spinReverse 12s linear infinite}
+.world-core img{
+  width:46%;
+  opacity:.23;
+  filter:grayscale(1) brightness(1.8);
+}
+.world-ring{
+  position:absolute;
+  inset:-8%;
+  border-radius:50%;
+  border:1px dashed rgba(215,185,107,.20);
+  animation:spin 24s linear infinite;
+}
+.world-pin{
+  position:absolute;
+  width:64px;height:64px;
+  display:grid;place-items:center;
+  border-radius:50%;
+  border:1px solid rgba(255,255,255,.13);
+  background:rgba(5,14,31,.78);
+  font-size:30px;
+  box-shadow:0 12px 35px rgba(0,0,0,.35);
+}
+.world-pin.p1{top:5%;left:46%}
+.world-pin.p2{top:26%;right:0}
+.world-pin.p3{bottom:18%;right:8%}
+.world-pin.p4{bottom:2%;left:42%}
+.world-pin.p5{bottom:20%;left:2%}
+.world-pin.p6{top:24%;left:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinReverse{to{transform:rotate(-360deg)}}
+
+.nations-copy{position:relative;z-index:2}
+.nations-copy h1{
+  margin:16px 0 0;
+  font-size:clamp(68px,8.4vw,140px);
+  line-height:.79;
+  letter-spacing:-.08em;
+  font-style:italic;
+}
+.nations-copy h1 span{
+  display:block;
+  color:transparent;
+  -webkit-text-stroke:1px rgba(248,245,236,.72);
+}
+.nations-copy p{
+  max-width:700px;
+  margin-top:28px;
+  color:var(--muted);
+  line-height:1.95;
+}
+.nations-quick{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:26px;
+}
+.nations-quick span{
+  padding:8px 11px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  color:#a7b9d2;
+  background:rgba(6,18,39,.56);
+  font-size:11px;
+}
+
+.nations-directory{
+  max-width:1680px;
+  margin:auto;
+  padding:76px 28px 80px;
+}
+.directory-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:18px;
+  margin-bottom:24px;
+}
+.directory-head h2{
+  margin:0;
+  font-size:clamp(44px,5.5vw,84px);
+  font-style:italic;
+  letter-spacing:-.055em;
+}
+.directory-head p{color:var(--muted)}
+.nation-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px;
+}
+.nation-card{
+  --nation-accent:#d7b96b;
+  position:relative;
+  min-height:390px;
+  padding:22px;
+  border-radius:26px;
+  overflow:hidden;
+  text-decoration:none;
+  transition:.28s;
+}
+.nation-card:hover{
+  transform:translateY(-9px);
+  border-color:color-mix(in srgb,var(--nation-accent) 52%,transparent);
+  box-shadow:0 30px 70px rgba(0,0,0,.48),0 0 34px color-mix(in srgb,var(--nation-accent) 15%,transparent);
+}
+.nation-card::before{
+  content:"";
+  position:absolute;
+  right:-90px;
+  top:-80px;
+  width:290px;height:290px;
+  border-radius:50%;
+  background:radial-gradient(circle,color-mix(in srgb,var(--nation-accent) 26%,transparent),transparent 66%);
+}
+.nation-card::after{
+  content:attr(data-code);
+  position:absolute;
+  right:-5px;
+  bottom:-16px;
+  font-size:112px;
+  line-height:.8;
+  font-weight:950;
+  letter-spacing:-.08em;
+  color:rgba(255,255,255,.033);
+}
+.nation-status{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:relative;
+  z-index:2;
+}
+.nation-status span{
+  color:var(--nation-accent);
+  font-size:10px;
+  letter-spacing:.14em;
+  font-weight:900;
+}
+.nation-status b{
+  padding:6px 8px;
+  border:1px solid color-mix(in srgb,var(--nation-accent) 32%,transparent);
+  border-radius:999px;
+  color:#c9d3e1;
+  font-size:9px;
+}
+.nation-flag{
+  position:relative;
+  z-index:2;
+  margin-top:44px;
+  font-size:72px;
+  filter:drop-shadow(0 14px 26px rgba(0,0,0,.32));
+}
+.nation-card h3{
+  position:relative;
+  z-index:2;
+  margin:22px 0 0;
+  font-size:34px;
+}
+.nation-en{
+  position:relative;
+  z-index:2;
+  margin-top:3px;
+  color:#8999b1;
+  font-size:12px;
+  letter-spacing:.10em;
+}
+.nation-identity{
+  position:relative;
+  z-index:2;
+  margin-top:18px;
+  color:#d5dfec;
+  line-height:1.65;
+}
+.nation-record{
+  position:absolute;
+  z-index:2;
+  left:22px;
+  bottom:22px;
+  color:#a5b4c9;
+  font-size:11px;
+}
+.nation-card.locked{
+  opacity:.84;
+}
+.nation-card.locked:hover{
+  opacity:1;
+}
+.expansion-map{
+  margin-top:54px;
+  padding:24px;
+  border-radius:24px;
+}
+.expansion-map-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin-top:18px;
+}
+.expansion-step{
+  padding:16px;
+  border:1px solid var(--line);
+  border-radius:15px;
+  background:rgba(6,18,40,.58);
+}
+.expansion-step b{
+  display:block;
+  font-size:18px;
+}
+.expansion-step span{
+  display:block;
+  margin-top:6px;
+  color:var(--muted);
+  font-size:11px;
+  line-height:1.55;
+}
+@media(max-width:1200px){
+  .nations-hero{grid-template-columns:1fr}
+  .world-orbit{min-height:500px}
+  .nation-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:680px){
+  .nations-hero{padding-left:16px;padding-right:16px}
+  .world-orbit{min-height:400px}
+  .nations-directory{padding-left:12px;padding-right:12px}
+  .nation-grid{grid-template-columns:1fr}
+  .expansion-map-grid{grid-template-columns:1fr 1fr}
+}
